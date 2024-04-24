@@ -1,5 +1,5 @@
-cnn/datasets/cifake/test
-cnn/datasets/cifake/train
+cnn/cifake/dataset/*
+cnn/genimage/dataset/stable_diffusion_1_4
 backup/
 
 
