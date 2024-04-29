@@ -44,10 +44,15 @@ class MulticlassGenImage(Dataset):
         self.img_dir = img_dir
         self.img_labels = []
         self.img_paths = []
-        for g, generated in enumerate(["nature", "ai"]):
+        for generated in ["ai", "nature"]:
+            g = 0 if generated == "nature" else 1
             image_files = os.listdir(os.path.join(img_dir, generated))
-            for label, image_name in enumerate(image_files):
-                self.img_labels.append({'binary' : g, 'multiclass' : label%10})
+            for l, image_name in enumerate(image_files):
+                if g==1:
+                    mc_label = int(image_name[:3])
+                else:
+                    mc_label = self.img_labels[l]['multiclass']
+                self.img_labels.append({'binary' : g, 'multiclass' : mc_label})
                 self.img_paths.append(os.path.join(generated, image_name))
 
     def __len__(self):
