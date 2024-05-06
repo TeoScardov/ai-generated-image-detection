@@ -7,7 +7,7 @@ from PIL import Image
 import torch
 from torch.utils.data import Dataset
 from torchvision.io import read_image
-
+from torch.utils.tensorboard import SummaryWriter
 
 class BinaryCIFAKE(Dataset):
     def __init__(self, img_dir, transform=None):
@@ -42,6 +42,7 @@ class MulticlassCIFAKE(Dataset):
         self.img_paths = []
         for g, generated in enumerate(["REAL", "FAKE"]):
             image_files = os.listdir(os.path.join(img_dir, generated))
+            image_files = sorted(image_files, key=lambda entry: entry.lower())
             for label, image_name in enumerate(image_files):
                 self.img_labels.append(label%10 + g*10)
                 self.img_paths.append(os.path.join(generated, image_name))
@@ -99,11 +100,10 @@ def compute_error(device, model, loader):
 
 
 
-def train_network(model, device, lr, epochs, train_dl, val_dl):
+def train_network(model, device, lr, epochs, train_dl, val_dl, writer=None):
     criterion = torch.nn.CrossEntropyLoss()
-    #opt = torch.optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=lr, momentum=0.9, weight_decay=0.0001)
-    opt = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=lr)
-    current_epoch = 0
+    opt = torch.optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=lr, momentum=0.9, weight_decay=0.0001)
+    #opt = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=lr)
     train_err = []
     val_err = []
     train_loss = []
@@ -127,17 +127,23 @@ def train_network(model, device, lr, epochs, train_dl, val_dl):
             loss.backward()
             opt.step()
 
+            
+
         # Set the model to evaluation mode
         model.eval()  
         current_train_err = compute_error(device, model, train_dl)
         current_val_err = compute_error(device, model, val_dl)
 
+        if writer:
+            writer.add_scalar('Loss/train', current_loss/len(train_dl), epoch)
+            writer.add_scalar('Error/train', current_train_err, epoch)
+            writer.add_scalar('Error/validation', current_val_err, epoch)
+
         train_err.append(current_train_err)
         val_err.append(current_val_err)
         train_loss.append(current_loss/len(train_dl))
 
-        current_epoch += 1    
-        if current_epoch < 6 or current_epoch%5 == 0:
+        if epoch < 5 or (epoch+1)%5 == 0:
             print(f"Epoch {epoch+1}; Train err = {train_err[epoch]*100:.2f}%; Val err = {val_err[epoch]*100:.2f}%; Loss: {(current_loss/len(train_dl)):.4f}")
     return train_err, val_err, train_loss
 
@@ -384,5 +390,5 @@ def visualise_samples(model, test_ds, labels_map, img_size=(224, 224)):
         plt.axis("off")
         img = img.cpu().numpy().transpose((1, 2, 0))
         img = Image.fromarray((img * 255).astype('uint8'))
-        plt.imshow(img.resize(img_size, resample=Image.Resampling.LANCZOS)) # The image is upsampled for better visualization
+        plt.imshow(img.resize(img_size, resample=Image.LANCZOS)) # The image is upsampled for better visualization
     plt.show()

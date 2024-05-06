@@ -61,28 +61,41 @@ class MulticlassGenImage(Dataset):
     def __getitem__(self, idx):
         img_path = os.path.join(self.img_dir, self.img_paths[idx])
         try:
-            image = read_image(img_path, mode=ImageReadMode.RGB)
+            image = Image.open(img_path).convert('RGB')
         except:
-            self.img_paths[idx] = modify_filename(self.img_dir, self.img_paths[idx])
+            idx_ = modify_filename(self.img_dir, self.img_paths, idx)
+            self.img_paths[idx] = self.img_paths[idx_]
             img_path = os.path.join(self.img_dir, self.img_paths[idx])
-            image = read_image(img_path, mode=ImageReadMode.RGB)
+            image = Image.open(img_path).convert('RGB')
         label = self.img_labels[idx]
         if self.transform:
             image = self.transform(image)
         return image, label
 
-def modify_filename(path, filename):
-    name, ext = filename.split('.')  # Separate the extension
-    parts = name.split('_')          # Split the base name parts
-    number_list = list(parts[-1])
-    number_list[-1] = str((int(number_list[-1])+1)%10)
-    new_number_part = ''.join(number_list)
-    new_filename = f"{'_'.join(parts[:-1])}_{new_number_part}.{ext}"
-    try:
-        read_image(os.path.join(path, new_filename))
-    except:
-        new_filename = modify_filename(path, new_filename)
-    return new_filename
+def modify_filename(img_dir, img_paths, idx_):
+    idx = idx_
+    changed = False
+    if idx < len(img_paths)//2:
+        while changed == False:
+            idx += 1
+            if idx == len(img_paths):
+                idx = 0
+            try:
+                Image.open(os.path.join(img_dir, img_paths[idx]))
+                changed = True
+            except:
+                changed = False
+    else:
+        while changed == False:
+            idx -= 1
+            if idx == -1:
+                idx = len(img_paths)-1
+            try:
+                Image.open(os.path.join(img_dir, img_paths[idx]))
+                changed = True
+            except:
+                changed = False
+    return idx
 
 
 

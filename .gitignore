@@ -1,7 +1,7 @@
 cnn/cifake/dataset/*
-cnn/genimage/dataset/stable_diffusion_1_4
+cnn/genimage/dataset/*
 backup/
-
+detection
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

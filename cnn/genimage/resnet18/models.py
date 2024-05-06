@@ -26,3 +26,14 @@ def multiclass_finetuning():
     model = MultioutputResNet18(pretrained_model)
 
     return model
+
+
+
+def multiclass_untrained():
+    # Load the pretrained ResNet18 model
+    model18 = resnet18()
+    
+    # Instantiate the custom model
+    model = MultioutputResNet18(model18)
+
+    return model
