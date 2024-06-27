@@ -7,7 +7,7 @@ from PIL import Image
 import torch
 from torch.utils.data import Dataset
 from torchvision.io import read_image
-from torch.utils.tensorboard import SummaryWriter
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 class BinaryCIFAKE(Dataset):
     def __init__(self, img_dir, transform=None):
@@ -67,6 +67,7 @@ class MultioutputCIFAKE(Dataset):
         self.img_paths = []
         for g, generated in enumerate(["REAL", "FAKE"]):
             image_files = os.listdir(os.path.join(img_dir, generated))
+            image_files = sorted(image_files, key=lambda entry: entry.lower())
             for label, image_name in enumerate(image_files):
                 self.img_labels.append({'binary' : g, 'multiclass' : label%10})
                 self.img_paths.append(os.path.join(generated, image_name))
@@ -100,10 +101,13 @@ def compute_error(device, model, loader):
 
 
 
-def train_network(model, device, lr, epochs, train_dl, val_dl, writer=None):
+def train_network(model, device, lr, epochs, train_dl, val_dl, writer=None, scheduler_patience=None, min_epochs=None, stopping_patience=None):
     criterion = torch.nn.CrossEntropyLoss()
     opt = torch.optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=lr, momentum=0.9, weight_decay=0.0001)
-    #opt = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=lr)
+    if scheduler_patience:
+        scheduler = ReduceLROnPlateau(opt, 'min', patience=scheduler_patience, factor=0.1, threshold=0.01, threshold_mode='rel')
+    if stopping_patience:
+        early_stopping = EarlyStopping(patience=stopping_patience, min_delta=0.01)
     train_err = []
     val_err = []
     train_loss = []
@@ -112,6 +116,7 @@ def train_network(model, device, lr, epochs, train_dl, val_dl, writer=None):
         # Set the model to training mode
         model.train()
         current_loss = 0.0
+        current_lr = opt.param_groups[0]['lr']
         for Xt, Yt in train_dl:
             Xt = Xt.to(device)
             Yt = Yt.to(device)
@@ -131,11 +136,23 @@ def train_network(model, device, lr, epochs, train_dl, val_dl, writer=None):
 
         # Set the model to evaluation mode
         model.eval()  
+        val_loss = 0
+        with torch.no_grad():
+            for Xt, Yt in val_dl:
+                Xt = Xt.to(device)
+                Yt = Yt.to(device)
+            # Forward pass
+            loss = criterion(model(Xt), Yt)
+            val_loss += loss.item()
+        val_loss /= len(val_dl)
+
         current_train_err = compute_error(device, model, train_dl)
         current_val_err = compute_error(device, model, val_dl)
 
         if writer:
             writer.add_scalar('Loss/train', current_loss/len(train_dl), epoch)
+            writer.add_scalar('Loss/validation', val_loss, epoch)
+            writer.add_scalar('Param/LR', current_lr, epoch)
             writer.add_scalar('Error/train', current_train_err, epoch)
             writer.add_scalar('Error/validation', current_val_err, epoch)
 
@@ -145,6 +162,18 @@ def train_network(model, device, lr, epochs, train_dl, val_dl, writer=None):
 
         if epoch < 5 or (epoch+1)%5 == 0:
             print(f"Epoch {epoch+1}; Train err = {train_err[epoch]*100:.2f}%; Val err = {val_err[epoch]*100:.2f}%; Loss: {(current_loss/len(train_dl)):.4f}")
+
+        # Call scheduler
+        if scheduler_patience:
+            scheduler.step(val_err[-1])
+        # Call early stopping
+        if min_epochs:
+            if epoch > min_epochs:
+                early_stopping(val_err[-1])
+                if early_stopping.early_stop:
+                    print(f"Epoch {epoch+1}; Train err = {train_err[epoch]*100:.2f}%; Val err = {val_err[epoch]*100:.2f}%; Loss: {(current_loss/len(train_dl)):.4f}")
+                    print("Stopping training...")
+                    break
     return train_err, val_err, train_loss
 
 
@@ -179,6 +208,27 @@ def plot_training_stats(train_err, val_err, train_loss):
 
 
 
+class EarlyStopping:
+    def __init__(self, patience=5, min_delta=0):
+        self.patience = patience
+        self.min_delta = min_delta
+        self.counter = 0
+        self.best_stat = None
+        self.early_stop = False
+
+    def __call__(self, stat):
+        if self.best_stat is None:
+            self.best_stat = stat
+        elif stat > self.best_stat*(1 - self.min_delta):
+            self.counter += 1
+            if self.counter >= self.patience:
+                self.early_stop = True
+        else:
+            self.best_stat = stat
+            self.counter = 0
+
+
+
 def compute_error_multioutput(device, model, loader):
     total_correct = {
         'binary': 0,
@@ -209,11 +259,15 @@ def compute_error_multioutput(device, model, loader):
 
 
 
-def train_network_multioutput(opt, model, device, epochs, train_dl, val_dl):
+def train_network_multioutput(model, device, lr, epochs, train_dl, val_dl, writer=None, scheduler_patience=None, min_epochs=None, stopping_patience=None):
     criterion1 = torch.nn.CrossEntropyLoss()  # Classification task with 2 classes
     criterion2 = torch.nn.CrossEntropyLoss()  # Classification task with 10 classes
+    opt = torch.optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=lr, momentum=0.9, weight_decay=0.0001)
+    if scheduler_patience:
+        scheduler = ReduceLROnPlateau(opt, 'min', patience=scheduler_patience, factor=0.1, threshold=0.01, threshold_mode='rel')
+    if stopping_patience:
+        early_stopping = EarlyStopping(patience=stopping_patience, min_delta=0.01)
 
-    current_epoch = 0
     train_errors = {
         'binary': [],
         'multiclass': [],
@@ -230,6 +284,7 @@ def train_network_multioutput(opt, model, device, epochs, train_dl, val_dl):
         # Set the model to training mode
         model.train()
         current_loss = 0.0
+        current_lr = opt.param_groups[0]['lr']
         for Xt, Yt in train_dl:
             Xt = Xt.to(device)
             Yt_b = Yt['binary'].to(device)
@@ -249,27 +304,56 @@ def train_network_multioutput(opt, model, device, epochs, train_dl, val_dl):
             loss.backward()
             opt.step()
 
-        # Set the model to evaluation mode
+        # Compute validation loss
         model.eval()  
+        val_loss = 0
+        with torch.no_grad():
+            for Xt, Yt in val_dl:
+                Xt = Xt.to(device)
+                Yt_b = Yt['binary'].to(device)
+                Yt_s = Yt['multiclass'].to(device)
+                # Forward pass
+                pred_b, pred_s = model(Xt)
+                loss_b = criterion1(pred_b, Yt_b)
+                loss_s = criterion2(pred_s, Yt_s)
+                loss = loss_b + loss_s
+                val_loss += loss.item()
+        val_loss /= len(val_dl)
+
         current_train_errors = compute_error_multioutput(device, model, train_dl)
         current_val_errors = compute_error_multioutput(device, model, val_dl)
 
-        train_errors['binary'].append(current_train_errors['binary'])
-        train_errors['multiclass'].append(current_train_errors['multiclass'])
-        train_errors['combined'].append(current_train_errors['combined'])
+        if writer:
+            writer.add_scalar('Loss/train', current_loss/len(train_dl), epoch)
+            writer.add_scalar('Loss/validation', val_loss, epoch)
+            writer.add_scalar('Param/LR', current_lr, epoch)
+            for label in current_train_errors:
+                writer.add_scalar('Error/train/'+label, current_train_errors[label], epoch)
+            for label in current_val_errors:
+                writer.add_scalar('Error/validation/'+label, current_val_errors[label], epoch)
 
-        val_errors['binary'].append(current_val_errors['binary'])
-        val_errors['multiclass'].append(current_val_errors['multiclass'])
-        val_errors['combined'].append(current_val_errors['combined'])
+        for label in current_train_errors:
+            train_errors[label].append(current_train_errors[label])
+
+        for label in current_val_errors:
+            val_errors[label].append(current_val_errors[label])
 
         train_loss.append(current_loss/len(train_dl))
-
-        current_epoch += 1    
-        if current_epoch < 6 or current_epoch%5 == 0:
-            print(f'''  Epoch {epoch+1}:  
-        Train error: Combined={train_errors['combined'][epoch]*100:.2f}%; Binary={train_errors['binary'][epoch]*100:.2f}%; multiclass={train_errors['multiclass'][epoch]*100:.2f}%; 
-        Validation error: Combined={val_errors['combined'][epoch]*100:.2f}%; Binary={val_errors['binary'][epoch]*100:.2f}%; multiclass={val_errors['multiclass'][epoch]*100:.2f}%; 
-        Loss: {(current_loss/len(train_dl)):.4f}''')
+   
+        if epoch < 5 or (epoch+1)%5 == 0:
+            print(f"- Epoch {epoch+1}: current lr = {current_lr:.0e}\nTrain error: Combined={train_errors['combined'][epoch]*100:.2f}%; Binary={train_errors['binary'][epoch]*100:.2f}%; multiclass={train_errors['multiclass'][epoch]*100:.2f}%; \nValidation error: Combined={val_errors['combined'][epoch]*100:.2f}%; Binary={val_errors['binary'][epoch]*100:.2f}%; multiclass={val_errors['multiclass'][epoch]*100:.2f}%; \nLoss: {(current_loss/len(train_dl)):.3e}")
+        
+        #torch.save(model.state_dict(), './weights/' + str(epoch) + '.pth')
+        # Call scheduler
+        if scheduler_patience:
+            scheduler.step(val_errors['combined'][-1])
+        # Call early stopping
+        if min_epochs:
+            if epoch > min_epochs:
+                early_stopping(val_errors['combined'][-1])
+                if early_stopping.early_stop:
+                    print("Stopping training...")
+                    break
     return train_errors, val_errors, train_loss
 
 
