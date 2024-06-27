@@ -1,7 +1,11 @@
-cnn/cifake/dataset/*
-cnn/genimage/dataset/*
+cnn/cifake/dataset/
+cnn/genimage/dataset/
+cnn/genimage_resized/dataset/
 backup/
 detection
+
+# files that are too big
+cnn/genimage_resized/sd14_only/weights/multiclass_finetuning_1hidden_batch64_epochs5.pth 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -163,3 +167,4 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+

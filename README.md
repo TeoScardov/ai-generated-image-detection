@@ -6,15 +6,7 @@ pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu12
 for linux:
 pip install torch torchvision
 pip install numpy==1.23.4 scikit-learn seaborn
-pip install ipykernel nbconvert
+pip install ipykernel nbconvert pillow
 
 
 
-tensorboard --logdir=logs/
-
-jupyter nbconvert --to notebook --execute my_notebook.ipynb --output my_notebook.ipynb
-
-
-screen
-Ctrl-a d
-screen -r
