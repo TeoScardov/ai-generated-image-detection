@@ -7,7 +7,7 @@ class MultioutputResNet50(nn.Module):
         super(MultioutputResNet50, self).__init__()
         self.features = nn.Sequential(*list(baseline_model.children())[:-1])
         self.fc1 = nn.Linear(2048, 2)  # Output of size 2
-        self.fc2 = baseline_model.fc  # Output of size 1000
+        self.fc2 = nn.Linear(2048, 1000)  # Output of size 1000
         
     def forward(self, x):
         x = self.features(x)

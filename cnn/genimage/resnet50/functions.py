@@ -1,4 +1,4 @@
-import os
+import os, json
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -28,12 +28,7 @@ class BinaryGenImage(Dataset):
 
     def __getitem__(self, idx):
         img_path = os.path.join(self.img_dir, self.img_paths[idx])
-        try:
-            image = read_image(img_path, mode=ImageReadMode.RGB)
-        except:
-            self.img_paths[idx] = modify_filename(self.img_dir, self.img_paths[idx])
-            img_path = os.path.join(self.img_dir, self.img_paths[idx])
-            image = read_image(img_path, mode=ImageReadMode.RGB)
+        image = Image.open(img_path).convert('RGB')
         label = self.img_labels[idx]
         if self.transform:
             image = self.transform(image)
@@ -42,7 +37,7 @@ class BinaryGenImage(Dataset):
 
 
 class MulticlassGenImage(Dataset):
-    def __init__(self, img_dir, transform=None):
+    def __init__(self, img_dir, val_gt=None, transform=None):
         self.transform = transform
         self.img_dir = img_dir
         self.img_labels = []
@@ -51,11 +46,25 @@ class MulticlassGenImage(Dataset):
             g = 0 if generated == "nature" else 1
             image_files = os.listdir(os.path.join(img_dir, generated))
             image_files = sorted(image_files, key=lambda entry: entry.lower())
-            for l, image_name in enumerate(image_files):
+
+            mc_label = 0
+            previous_class = None
+            for image_name in image_files:
+                name_parts = image_name.split('_')
                 if g==1:
-                    mc_label = int(image_name[:3])
+                    mc_label = int(name_parts[0])
                 else:
-                    mc_label = self.img_labels[l]['multiclass']
+                    if name_parts[0] != 'ILSVRC2012':
+                        if previous_class:
+                            current_class = name_parts[0]
+                            if previous_class != current_class:
+                                previous_class = current_class
+                                mc_label += 1
+                        else:
+                            previous_class = name_parts[0]
+                    else: 
+                        if val_gt:
+                            mc_label = val_gt[int(name_parts[-1].split('.')[0])]
                 self.img_labels.append({'binary' : g, 'multiclass' : mc_label})
                 self.img_paths.append(os.path.join(generated, image_name))
 
@@ -64,42 +73,31 @@ class MulticlassGenImage(Dataset):
 
     def __getitem__(self, idx):
         img_path = os.path.join(self.img_dir, self.img_paths[idx])
-        try:
-            image = Image.open(img_path).convert('RGB')
-        except:
-            idx_ = modify_filename(self.img_dir, self.img_paths, idx)
-            self.img_paths[idx] = self.img_paths[idx_]
-            img_path = os.path.join(self.img_dir, self.img_paths[idx])
-            image = Image.open(img_path).convert('RGB')
+        image = Image.open(img_path).convert('RGB')
         label = self.img_labels[idx]
         if self.transform:
             image = self.transform(image)
         return image, label
 
-def modify_filename(img_dir, img_paths, idx_):
-    idx = idx_
-    changed = False
-    if idx < len(img_paths)//2:
-        while changed == False:
-            idx += 1
-            if idx == len(img_paths):
-                idx = 0
+
+
+def val_mapping(path):
+    with open(os.path.join(path, 'imagenet_class_index.json'), 'r') as file:
+        data = json.load(file)
+        json_class_index = {value[0]:key for key, value in data.items()}
+
+    mapping = {}
+    with open(os.path.join(path, 'ILSVRC2012_mapping.txt'), 'r') as file:
+        for line in file.readlines():
             try:
-                Image.open(os.path.join(img_dir, img_paths[idx]))
-                changed = True
+                mapping[line.strip().split(' ')[0]] = json_class_index[line.strip().split(' ')[-1]]
             except:
-                changed = False
-    else:
-        while changed == False:
-            idx -= 1
-            if idx == -1:
-                idx = len(img_paths)-1
-            try:
-                Image.open(os.path.join(img_dir, img_paths[idx]))
-                changed = True
-            except:
-                changed = False
-    return idx
+                break
+
+    with open(os.path.join(path, 'ILSVRC2012_validation_ground_truth.txt'), 'r') as file:
+        val_ground_truth = [None] + [int(mapping[line.strip()]) for line in file.readlines()]
+
+    return val_ground_truth
 
 
 
