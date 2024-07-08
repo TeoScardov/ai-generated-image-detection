@@ -3,6 +3,7 @@ cnn/genimage/dataset/
 cnn/genimage_resized/dataset/
 backup/
 detection
+llm/TinyLLaVA_Factory/
 
 # files that are too big
 cnn/genimage_resized/sd14_only/weights/multiclass_finetuning_1hidden_batch64_epochs5.pth 
