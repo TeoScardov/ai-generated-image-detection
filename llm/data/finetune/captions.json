@@ -1,1 +1,1082 @@
-[]
+[
+    {
+        "id": "DKUWqFE3hv9uvBDXSuGedt",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/DKUWqFE3hv9uvBDXSuGedt.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there's a bright green snake coiled up on a lush, green grassy field. The background is simple, with a few blades of grass standing out among the smooth, evenly cut lawn. You can tell that the image is artificially generated because the snake doesn't have a head and because its body does a full circle."
+            }
+        ],
+        "metadata": {
+            "object_category": "snake",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "ExqnsUMNpnATSEPFg9jMkQ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/ExqnsUMNpnATSEPFg9jMkQ.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows five red lobsters arranged randomly on a white background. the image seems artificially generated because the background is plain and white, but more importantly because the lobsters all have a different number of arms, many of which are located in place of where their tail should be."
+            }
+        ],
+        "metadata": {
+            "object_category": "lobster",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "GQ7rHXwEf4JBLPSgorv2ag",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/GQ7rHXwEf4JBLPSgorv2ag.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a stainless steel saucepan, resting on a light teal background. Inside the saucepan, there is a metal ladle that seems to blend with the handle of the pan, making it obvious that the image is artificially generated. Another hint is the fact that the writings on the inside and outside of the pan do not make any sense."
+            }
+        ],
+        "metadata": {
+            "object_category": "measuring cup",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "cSbyiGkPH9FBTtrj2GFgfu",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/cSbyiGkPH9FBTtrj2GFgfu.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a vintage military aircraft, flying in a clear blue sky. The plane has two propellers on a wing and one propeller on the other wing, seemingly positioned in random places, making it obvious that the image is artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "warplane",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "JHLHxFmjBYPxvY7uqz9ouT",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/JHLHxFmjBYPxvY7uqz9ouT.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a sleek, modern chef's knife with a black handle and a textured metal blade, placed on a dark, smooth surface. Beside the knife, there is another piece of metal with no apparent function. the unusual shape of the blade which has no tip, the handle of the knife, and the other random piece of metal make it apparent that the image is artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "knife",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "6rhGBzcThFDNQvteEriHQQ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/6rhGBzcThFDNQvteEriHQQ.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a brightly colored salamander with vivid red, black, and yellow stripes on its body. The salamander is resting on a yellow leaf, with another leaf partially visible in the corner, suggesting an autumn setting. The fact that the back legs of the salamander are fused together with its tail suggests that the image is artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "salamander",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "cNQhQ22uic9NvareRL68UF",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/cNQhQ22uic9NvareRL68UF.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows two large aircraft carriers sailing on the ocean, each with numerous fighter jets on their decks. The sea is calm, and the sky is mostly clear. The jets appear to be squashed and their position is hanging above the water, suggesting the fact that this image is artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "aircraft carrier",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "ZGZYZSifcsS434dxqwFmu2",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/ZGZYZSifcsS434dxqwFmu2.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image is a close-up of a chimpanzee's face, showcasing detailed features like its expressive eyes and textured skin. The background is dark, which draws full attention to the chimpanzee's face. The lighting and the overall texture of the main object suggests that this image is a digital rendition of a chimpanzee."
+            }
+        ],
+        "metadata": {
+            "object_category": "chimpanzee",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "DxrPiK2oeee934S5NTHEFC",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/DxrPiK2oeee934S5NTHEFC.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a small yellow tench, perched on a piece of wood. The background is a soft-focus green, indicating an outdoor environment. This image is blatantly artificially generated because a fish cannot have arms and is not typically found outside water in a forest setting."
+            }
+        ],
+        "metadata": {
+            "object_category": "tench",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "RGdMGizZSnYdx7tb5NJaFQ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/RGdMGizZSnYdx7tb5NJaFQ.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you think this image is real or artificially generated? Please explain your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a close-up of a hand with manicured nails painted in a glossy pink color. You can immediately tell that the image is artificially generated because there is a finger that is unnaturally elongated and another finger that has a nail in the middle part of it."
+            }
+        ],
+        "metadata": {
+            "object_category": "nail",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "VZYcbLeouuye2MubJm6jjP",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/VZYcbLeouuye2MubJm6jjP.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a row of colorful popsicles in various vibrant shades, lined up against a bright outdoor backdrop. The popsicles are reflected in a calm body of water below, enhancing the vividness of their colors. The background features a sunny sky with some clouds. The unusual outdoor setting, and the dact that the popsicles have a wooden stick coming out of both the bottom and the top of the popsicle makes it clear that the image is computer-generated"
+            }
+        ],
+        "metadata": {
+            "object_category": "popsicle",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "SrxeyuTPAbkwptvr4vsQHg",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/SrxeyuTPAbkwptvr4vsQHg.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a futuristic, pod-like underwater vessel with a large, oval window, suspended in the ocean. The interior of the pod appears well-lit and modern, with a chair visible through the window. Surrounding the vessel are colorful coral reefs and a few fish, set against the blue underwater background. The looks of this vessel suggest that this is a computer-generated submarine of some sort."
+            }
+        ],
+        "metadata": {
+            "object_category": "submarine",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "ZnC8ixetESGwtqMyob4Jsb",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/ZnC8ixetESGwtqMyob4Jsb.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a grand piano placed in a corridor of a house with wooden flooring, a grand staircase with dark wood railings, and large arched windows. The background includes some greenery visible through the open door. The unusual position of the piano, and the fact that it has many front legs and no rear legs, makes it clear that the image is computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "piano",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "AMtBTNWjLzGJhezSXirrFR",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/AMtBTNWjLzGJhezSXirrFR.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows three cast iron skillets arranged on a weathered wooden surface. The skillets have a rustic, worn look, with some visible rust and discoloration. The shape and length of the handles and the fact that the middle skillet has many pouring faucets, make it probable that the image is computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "frying pan",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "avPn7eTgJYUDgQ4wQGpqd6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/avPn7eTgJYUDgQ4wQGpqd6.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a black-and-white monkey perched on a broken tree trunk in a natural setting. The monkey has a long tail, a black-and-white face, and a white chest, with the rest of its body covered in dark fur. The background is lush and green, indicating a forested or jungle environment. The unsettling look of the monkey's eyes, and the unnatural position with respect to the tree branch, makes it seem like the image is computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "guenon monkey",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "TxhqKawcStYjwp6V9uM6Bv",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/TxhqKawcStYjwp6V9uM6Bv.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows two wooden measuring rulers placed side by side against a dark background. The rulers have not-so-clearly marked units and numbers, indicating that the image is likely computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "ruler",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "QKns76T92bxNgkGqRMGmxE",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/QKns76T92bxNgkGqRMGmxE.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a traffic light at night, displaying red, green, and yellow lights simultaneously. The background is dark with a faint glimpse of the moon. The fact that all the lights are displayed at the same time, and the fact that they are in an unusual order tells us that the image is computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "stoplight",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "FweJjh6ap7G88gxdN7fNYk",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/FweJjh6ap7G88gxdN7fNYk.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows an ox head fused together with a wooden cart, set in a forested area with lush green trees. The image is clearly computer generated since the animal should be pulling the cart and not be joined to it."
+            }
+        ],
+        "metadata": {
+            "object_category": "oxcart",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "28eTuBfjyyhW3dWecgL8FH",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/28eTuBfjyyhW3dWecgL8FH.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a close-up of an old-fashioned scale with a blue frame and a yellow dial. The scale's needle is pointing to a measurement around the middle of the dial, which has black numbers and markings that are intelligible, making it obvious that the image is computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "milometer",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "9HoirTpNckm2dX8zCuXa99",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/9HoirTpNckm2dX8zCuXa99.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you determine if this image is genuine or computer-generated? Please elaborate on your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a mobile home with its lights on, set against a backdrop of trees at sunset. The home has white siding and several windows, with light spilling out from the interior. There are two elements that tell that the image is computer-generated: the window blinds do not match the size of the windows, and more importantly the house appears to be elevated from the ground with no structure to back it up."
+            }
+        ],
+        "metadata": {
+            "object_category": "mobile home",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "HARoUXdPhLoGRnDgvVRenW",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/HARoUXdPhLoGRnDgvVRenW.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a panda sitting on a large wooden log. The panda's black-and-white fur contrasts with the natural brown of the log and the green, leafy background. The image is definitely digitally created, given the fact that the panda's arms seem to be fused together in an unnatural way."
+            }
+        ],
+        "metadata": {
+            "object_category": "panda",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "UJB6DnQY2jSpzikgj5FFyJ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/UJB6DnQY2jSpzikgj5FFyJ.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a metal turnstile with a cylindrical base and curved horizontal bars, on a plain white background. The turnstile doesn't seems to have any moving parts, so this fact plus the plain background tells us that the image was digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "turnstile",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "Lf7xGqZMtusitw2L8xU5h5",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/Lf7xGqZMtusitw2L8xU5h5.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a green plastic bottle with a blue cap, containing several pills inside. The bottle is standing on a plain, light-colored surface with a neutral background, which casts a soft shadow. The plain background and the unusual way the pills are placed in the bottle reveals that the image was digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "pill bottle",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "AwUuHiU8eh6dhQUR8jWTKn",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/AwUuHiU8eh6dhQUR8jWTKn.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a fluffy white cat with striking heterochromatic eyes, one pink and one blue. The cat is lying on a soft, purple blanket with a dark blue fabric backdrop. The fact that the cat has pink eyes, which cannot exist in real life, tells us that the image was digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "Persian cat",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "ZTjEAmaL6Rzm3s4UnSVPQ6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/ZTjEAmaL6Rzm3s4UnSVPQ6.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a yellow electronic device with multiple sharp metal probes extending from it. The device has a label that is unintelligible and has two small holes on its surface, possibly indicating a speaker or sensor. The background is a matching yellow, creating a monochromatic look. The dubious nature of the instrument and the monochomatic background indicate that the image was digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "screwdriver",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "kdsxfWzu2AAoYygaNg4Pp9",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/kdsxfWzu2AAoYygaNg4Pp9.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a coiled green tube with a metal nozzle, lying on a dark, slightly dirty surface. There is a piece of white tape loosely wrapped around the tube, suggesting it might have been used for temporary repairs. It is not clear what this object is supposed to be, and the tube coil doesn't appear to have a clear beginning, making it probable that the image was digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "oxygen mask",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "Zck2TnFdxC6m2gstoKEUVP",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/Zck2TnFdxC6m2gstoKEUVP.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a fluffy white dog lying down, blending in with a light-colored shaggy rug beneath it. The dog's fur is long and slightly covers its eyes. The background is plain white, and together with the fact tha the dog's fur blends with its underneath, it reveals that the image was digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "dog",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "bX3UFNLh49tkraZzNPNAnt",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/bX3UFNLh49tkraZzNPNAnt.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows an open book with a crossword puzzle. The crossword grid has several filled-in letters, and some surrounding text, but none of it seems to make sense. The random marking and symbols in the page confirm that the image was digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "crosswords",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "KLbR4U4pJeoLsutivvrPgV",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/KLbR4U4pJeoLsutivvrPgV.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a man sitting in a barber chair, covered with a red and white striped cape, getting a haircut from three barbers simultaneously. The barbers, all older men, are working without using any instrument. The unusual fact that three barbers are working simultaneusly and the absence of instruments make compelling arguments for the image being digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "barbershop",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "FAgzHgB59LDid5Qua3FpiV",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/FAgzHgB59LDid5Qua3FpiV.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you believe this image is authentic or digitally created? What led you to that conclusion?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows an old-fashioned smartphone with an unusual keyboard, resting on a sleek, reflective surface near a large window. Outside the window, a cityscape is visible with a tall, pointed building and a sunset in the background. The unusual keyboard, missing many of the digits from zero to nine, suggests that the image was digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "cellphone",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "d2HxVB4qC7r54dfeoc53Zf",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/d2HxVB4qC7r54dfeoc53Zf.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a leopard walking through a grassy area, its body displaying a black and yellow spotted pattern that completely changes in the middle of the animal from top to bottom. The background is lush and green, indicating a natural habitat, possibly in a savanna or forest. The unusual change in the animal spotted pattern and the weird shape of its eyes suggest that the image is a product of artificial generation."
+            }
+        ],
+        "metadata": {
+            "object_category": "leopard",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "YEUCa4jG7itam6LdWdqTWv",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/YEUCa4jG7itam6LdWdqTWv.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows two yellow jars placed on a smooth, light-colored surface. One jar has a black lid, while the other has a silver lid with an unusual indentation. The lighting casts soft shadows around the jars, highlighting their glossy surfaces and simple design. The plain colors and the weird shape of the silver lid makes me think that this image is a product of artificial generation."
+            }
+        ],
+        "metadata": {
+            "object_category": "pill bottle",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "hdchmp4fFACHD9oArsfHWP",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/hdchmp4fFACHD9oArsfHWP.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a wooden staircase with dark wooden railings and newel posts. The steps have white risers and dark wood treads. The background is a neutral-colored wall. The posts that are placed at the end of the wooden railings interact in a weird way with their surroundings, seemingly clipping through the staircase. This makes it seem that this image is a product of artificial generation."
+            }
+        ],
+        "metadata": {
+            "object_category": "handrail",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "8HnQQGnASUBAfQxF8EBZwX",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/8HnQQGnASUBAfQxF8EBZwX.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a close-up of a bird with gray feathers. Its feet are bright red. The background is blurred, featuring green foliage. The fact that the main subject doesn't wholly fit into the picture, and the fact that the bird is supended in mid-air without flying suggests that this image could be a product of artificial generation."
+            }
+        ],
+        "metadata": {
+            "object_category": "African grey (bird)",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "U7wee8mdbDMWCHqbebbhEk",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/U7wee8mdbDMWCHqbebbhEk.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a woman with dark hair leaning against a wooden wall, wearing a blue denim jacket. Her eyes have an unusual, almost creepy look. The background has a wooden texture. The woman's creepy eyes and weird hand placement indicates that this image is be a product of artificial generation."
+            }
+        ],
+        "metadata": {
+            "object_category": "blue jean",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "ebma9mAVK4y2QxwyxexPub",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/ebma9mAVK4y2QxwyxexPub.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a shorebird wading in shallow water, with what appears to be an unnatural feature: it has two heads. The bird has brown and white plumage with a long, slender beak, and its reflection is visible in the water. The background is a calm, blue-gray body of water, highlighting the bird and its peculiar, artificially generated anomaly."
+            }
+        ],
+        "metadata": {
+            "object_category": "dowitcher",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "hD2AMdeFvAfGvc7e2S4mKK",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/hD2AMdeFvAfGvc7e2S4mKK.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows two police vans parked side by side in an open area. Both vehicles have a blue and white checkered pattern with red and blue lights on top, but the text on them is unintelligible, indicating this image is probably artificially generated. The background includes a hedge and some trees."
+            }
+        ],
+        "metadata": {
+            "object_category": "police van",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "5g9rmud5rGZvSbcWfeZYqz",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/5g9rmud5rGZvSbcWfeZYqz.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a metallic disc with a central bearing, likely meant to be a part of a mechanical system, such as a brake rotor. The background is plain and dark. The disc has an unusual, warped shape with irregular cutouts, suggesting it may be an artificially generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "disk brake",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "FwMPnoivQHSiWr9ekPw6uD",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/FwMPnoivQHSiWr9ekPw6uD.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a brass musical instrument, resembling a tuba, but with a highly twisted and convoluted shape. The tubing is bent and intertwined in a way that is impractical for a real instrument, indicating it is artificially generated. The background is plain and neutral, highlighting the bizarre and twisted form of the horn."
+            }
+        ],
+        "metadata": {
+            "object_category": "trumpet",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "PePYwN8qifZQdbwufUfd6L",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/PePYwN8qifZQdbwufUfd6L.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWould you classify this image as real or a product of artificial generation? Explain why you think that."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a large shark swimming underwater, with another shark in the background that appears distorted and oddly positioned. The second shark's unnatural posture and proportions suggest it is an artificially generated image. The underwater setting has a typical blue-green tint, with the seafloor visible in the distance."
+            }
+        ],
+        "metadata": {
+            "object_category": "white shark",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "FXTjBnZY63GaYQ7ofJB7hj",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/FXTjBnZY63GaYQ7ofJB7hj.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a busy street filled with yellow taxis, but the features of the cars appear distorted and unrealistic. The shapes, proportions, and details of the vehicles look off, indicating that the image is likely artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "taxi",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "4832Zm52EKQBHYyS6qiRDN",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/4832Zm52EKQBHYyS6qiRDN.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a historical cannon with large, warped wheels but the main body of the cannon is missing or obscured. The background features a well-kept lawn and a building, likely part of a park or historical site. The wheels appear unusually distorted, suggesting that this is an artificially generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "cannon",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "njBFNAUWxbyDMs44GtDK4Q",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/njBFNAUWxbyDMs44GtDK4Q.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a keyboard with black keys and white lettering, but the characters on the keys are nonsensical and distorted. The layout and symbols are unusual and don't correspond to any known language or keyboard format, indicating that this is an artificially generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "keyboard",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "ZnL4VFL5XAxjQK9F5SGn7K",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/ZnL4VFL5XAxjQK9F5SGn7K.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a vehicle dashboard gauge with the word 'HOMER' prominently displayed in the center, where a brand name or speedometer label would typically be. The numbers and markings around the gauge are unreadable and unclear, suggesting this is an artificially generated image. The overall design looks realistic, but the nonsensical text and illegible details indicate it is not from a real vehicle."
+            }
+        ],
+        "metadata": {
+            "object_category": "mileometer",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "38WLtfyCj6rvxpBMTqMeEV",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/38WLtfyCj6rvxpBMTqMeEV.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a Dalmatian dog seemingly merged with a vintage baby carriage, as if it is part of the carriage structure. The merging appears unnatural and unrealistic, with the dog's body seamlessly transitioning into the carriage. The background features a brick wall, adding to the surreal and digitally created nature of the image."
+            }
+        ],
+        "metadata": {
+            "object_category": "carriage dog",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "2yMQtPLwEKDPLTGyG7Gcjt",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/2yMQtPLwEKDPLTGyG7Gcjt.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a brown curly-haired dog sitting on a grassy field. The dog's eyes have an unsettling, unnatural look, contributing to a slightly creepy appearance. The background is a lush green, contrasting with the dark fur of the dog, but the eerie eyes suggest the image might be digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "curly-coated retriever",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "WYQJoFyjPyD2GpvaMCMBAe",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/WYQJoFyjPyD2GpvaMCMBAe.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a neatly arranged collection of tools on a wooden surface, but the designs of these tools appear unusual and impractical. Many of the tools have unique shapes and features that are not typical of real, functional tools, indicating that the image is likely artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "tool kit",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "JAksoRN6PZ3okCyqdxcV6i",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/JAksoRN6PZ3okCyqdxcV6i.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a blue and silver handheld blower, but its design appears unusual and impractical. The blower's nozzle is emitting a spray rather than air, and it is positioned awkwardly next to a brush attachment that seems out of place. The overall design and functionality look off, suggesting this image is digitally created."
+            }
+        ],
+        "metadata": {
+            "object_category": "hair drier",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "d8o3mvdi6gFBNN3ZfJw4tR",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/d8o3mvdi6gFBNN3ZfJw4tR.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a small dog sitting on grass, but it has an unusual and unrealistic feature: two tongues visible in its mouth. The dog's fur is a mix of gray and brown, and it appears alert, but the presence of two tongues clearly indicates that this is an artificially generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "cairn terrier",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "9MtijoyYymYAxmN7Nu8spX",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/9MtijoyYymYAxmN7Nu8spX.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this image appear to be an actual photo or a digital creation? Please provide your reasoning."
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a green amphibious vehicle driving on water, with two people seated inside. The background features a serene lake with a wooded shoreline. The vehicle has unusual features, such as oversized headlights and a compact, toy-like appearance. The faces of the people also look oddly proportioned and somewhat distorted, suggesting this image is artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "amphibious vehicle",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "BxqT4nw5r3f9Eo28RTxp53",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/BxqT4nw5r3f9Eo28RTxp53.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a large, fluffy dog standing on a paved path, but its body proportions look off and unnatural. The background includes grass and the edge of the path. The dog's legs and torso seem oddly shaped and not quite aligned correctly, suggesting that this is an AI-generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "dog",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "kU4c25DuAReALbKcyvVw2q",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/kU4c25DuAReALbKcyvVw2q.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a brightly colored yellow amphibian with black spots, resembling a salamander, but it has an unnatural number of legs. The background is a textured, rocky surface with some green moss, highlighting the vibrant colors of the creature. The amphibian's body appears elongated with multiple limbs, suggesting that this is an AI-generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "fire salamander",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "Z7fQSfPkEQD3NYhCPXKK9f",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/Z7fQSfPkEQD3NYhCPXKK9f.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a colorful lizard with bright green, blue, and orange scales, but its eyes are mismatched and feature different designs, creating an unrealistic appearance. One eye has a typical lizard's slit pupil, while the other eye has a round pupil with an unusual red iris. The features and colors are strikingly vivid, but the mismatched eyes and exaggerated details suggest that this is an AI-generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "African chameleon",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "DEudwUdrSbiz8VXhZJtHyB",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/DEudwUdrSbiz8VXhZJtHyB.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a llama with an unusual feature: it has more than two ears, with an extra pair visible, making it look unnatural. The llama's brown and white fur appears normal, but the bad cropping and additional ears suggest this is an AI-generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "llama",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "JKcwtUWz24xpRjk46cf8yb",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/JKcwtUWz24xpRjk46cf8yb.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a dog with unnaturally intense eyes, standing on what appears to be a flat, open area. The dog's eyes give it a creepy appearance, and the overall proportions look slightly off. There are also unusual black bands at the top and bottom of the image, indicating that it is likely an AI-generated creation."
+            }
+        ],
+        "metadata": {
+            "object_category": "Walker hound",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "QBiFn4rLswnAGMJ9GTrLJK",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/QBiFn4rLswnAGMJ9GTrLJK.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a man wearing a white lab coat and glasses, but his shirt underneath clips in an odd way, creating an unnatural look. His facial features also appear slightly off and asymmetrical, suggesting this is an AI-generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "lab coat",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "FGwe52BPnrWPqLrhUPZpvH",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/FGwe52BPnrWPqLrhUPZpvH.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a barbershop with several black chairs lined up along the wall, but there are some odd details. The paintings on the walls don't seem to make sense or depict anything recognizable, and one of the chairs appears to be merging with the background. These strange inconsistencies suggest that the image is artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "barbershop",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "VEdgn33Dh4FWmBbFiU2fUa",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/VEdgn33Dh4FWmBbFiU2fUa.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a couple of perfume bottles placed on a green surface with a background rug, but there are several odd details. The textures of the surrounding area look unnatural. The text on the bottles is unintelligible, and the shapes of the bottles themselves appear slightly distorted, indicating that this is likely an artificially generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "perfume",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "DGY7mgg6StHvwDiKLG6uPA",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/DGY7mgg6StHvwDiKLG6uPA.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a pair of blue jeans laid out on an orange surface, but the jeans appear to have three legs. This unusual and impossible design indicates that the image is AI-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "jeans",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "L2gSbcDCipvuggvGAMgKKk",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/L2gSbcDCipvuggvGAMgKKk.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you tell if this image is a real capture or an AI-generated one? What makes you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a pool table with a red felt surface in a modern room, but the table appears distorted and seems to be missing some legs. The ceiling lights above the table look misaligned and unrealistic, suggesting that the image is AI-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "pool table",
+            "generator": "stable diffusion 1.5"
+        }
+    }
+]
