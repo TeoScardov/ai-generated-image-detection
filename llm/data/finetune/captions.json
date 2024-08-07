@@ -1078,5 +1078,707 @@
             "object_category": "pool table",
             "generator": "stable diffusion 1.5"
         }
+    },
+    {
+        "id": "cidVx78LGHizHu7dtVEV22",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/cidVx78LGHizHu7dtVEV22.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a dog with an unusual appearance, sitting on a grassy field. The dog\u2019s eyes and legs look oddly shaped and disproportionate, contributing to a surreal effect. The overall unnatural look of the dog, especially the exaggerated features, suggests that this image is likely artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "dog",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "DuW67pHJpn3k8aa9qrJreH",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/DuW67pHJpn3k8aa9qrJreH.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image features a fish, possibly a goldfish, with a vibrant orange color. However, the fish's features, particularly around the eye and the fins, appear slightly blurred and distorted, giving it a confused and unnatural look. This suggests that the image might have been artificially generated or altered."
+            }
+        ],
+        "metadata": {
+            "object_category": "salmon",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "4VhANoPpxDzuDbiJHMtVhb",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/4VhANoPpxDzuDbiJHMtVhb.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a structure that resembles a carousel, but it's blurred significantly, making it difficult to discern the details. The background is also blurred, and the overall fuzzy appearance and lack of clear features suggest that the image could be artificially generated or altered."
+            }
+        ],
+        "metadata": {
+            "object_category": "carousel",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "WxVLqW9UH7vbDjHjcYvij6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/WxVLqW9UH7vbDjHjcYvij6.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows two street signs mounted on a pole, but the text on them appears jumbled and nonsensical, suggesting that the image is probably artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "street sign",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "Yj2MUZceE3Zcx3Sbct7Phx",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/Yj2MUZceE3Zcx3Sbct7Phx.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a bridge with a highly unusual and distorted structure, featuring twisted and misshapen metal elements that defy typical engineering designs. The background consistes of a clear blue sky and some foliage, but it is really blurred. Given the bridge's abnormal configuration, along with the lack of clear structural integrity, the image is artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "steel arch bridge",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "fNHb4qKfqAwLmmq7KA382w",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/fNHb4qKfqAwLmmq7KA382w.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a clock with a very unusual dial, featuring gibberish or scrambled characters instead of regular numbers. This nonsensical arrangement suggests the clock is part of an artificially generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "analog clock",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "bSgRp8AvmtSHHg9e9hjCFC",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/bSgRp8AvmtSHHg9e9hjCFC.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a dog with a visibly distorted face, set against a backdrop of grass and trees. The aberration in the facial features, strongly suggests that this image is artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "Newfoundland dog",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "UJdrQcHqKGypg6aMxFe4tt",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/UJdrQcHqKGypg6aMxFe4tt.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image features a guitar with a glossy red body and a vibrant yellow background. However, the strings appear distorted and unnaturally positioned, which does not correspond with the typical structure of a guitar. This distortion suggests the image is likely artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "acoustic guitar",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "35EReJTbJ5LtBZNB8fbyZQ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/35EReJTbJ5LtBZNB8fbyZQ.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat details do you notice in this image? Does it seem real or generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image appears to show a close-up of a matchstick, but it is unusually colored and blurry and it lacks detail, particularly at the tip, where one would expect to see the ignition material. The overly simplified and distorted appearance suggests that the image is indeed artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "matchstick",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "jHcULah2sphm6p9N26z48k",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/jHcULah2sphm6p9N26z48k.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a red and black bag with a somewhat unclear and distorted design, suggesting it might be artificially generated. The details and branding are not crisp, and the overall shape and features of the bag look slightly off, with blurred edges and unusual proportions."
+            }
+        ],
+        "metadata": {
+            "object_category": "backpack",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "ZX4jhcNYMcCosLcHiCCTAh",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/ZX4jhcNYMcCosLcHiCCTAh.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a building with a highly unusual, almost cartoon-like roof that is extremely rounded and disproportionately large compared to the building's base. It is likely an artificially generated depiction."
+            }
+        ],
+        "metadata": {
+            "object_category": "thatched roof",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "3UgNTVtNQfagNcFQLijrCH",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/3UgNTVtNQfagNcFQLijrCH.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image features a close-up of a microphone with an unusual and complex texture that appears overly detailed and metallic. The parts of the microphone blend together in a way that's not typical for real-world devices. The soft focus and the blending of textures make this appear like a computer-generated image."
+            }
+        ],
+        "metadata": {
+            "object_category": "microphone",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "73FyvXbq7Abd2jjhLnou6c",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/73FyvXbq7Abd2jjhLnou6c.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a bright green lizard clinging to a tree trunk, but the details and textures appear unnatural. The lizard's body and the tree's surface have a blurry, smeared quality, suggesting that this image is computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "green lizard",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "cGtQZ7tcnSynYxq25TmuzU",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/cGtQZ7tcnSynYxq25TmuzU.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image displays a speedboat on the sea, but both the boat and the water exhibit unusual distortions. The boat's proportions and features are blurry and altered, lacking crisp details that would be expected in a real photo. Additionally, the sea around the boat has a smeared appearance, indicating that this image could indeed be computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "speedboat",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "CfVVd2ath8jBPMNDEA6yLo",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/CfVVd2ath8jBPMNDEA6yLo.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image features a pair of socks with unnatural bends and folds that don't typically appear in fabric. The socks are pink with varying shades and lines that overlap from one another. This exaggerated textural effect suggest that the image was computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "sock",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "5VuKy42Dyoq8CDzNoHApmb",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/5VuKy42Dyoq8CDzNoHApmb.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a tractor with strikingly distorted features, particularly the tires, which appear unnaturally warped and bent. The tractor's overall structure also seems to have irregularities that don't align with conventional machinery designs, such as exaggerated angles and a disjointed attachment. These abnormalities suggest the image is computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "plow",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "XKBLPyNuk84TunT4sMjehW",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/XKBLPyNuk84TunT4sMjehW.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image displays a shopping cart that has irregular proportions and its lines are not as straight as one would expect, giving it a twisted appearance. This, combined with the fuzzy quality of the image, suggests it may be a computer-generated picture, lacking the clarity and precision typically found in photographs of everyday objects."
+            }
+        ],
+        "metadata": {
+            "object_category": "shopping cart",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "77aWa3BvXy3RJRMsgK3PBW",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/77aWa3BvXy3RJRMsgK3PBW.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a crane with a highly unrealistic and disproportionate design. The blur and distortion around the crane further suggest that the image might be computer-generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "crane",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "VCFdJjpSwjrED6WFk6h9Nm",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/VCFdJjpSwjrED6WFk6h9Nm.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat stands out in this image? Does it appear to be natural or computer-generated?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image depicts an office setting with a glossy, reflective table and modern furnishings, but the overall scene has a surreal quality due to the blurriness and unnatural lighting. The walls and table have an exaggerated shine, and the reflections on the table seem too perfect, suggesting that the image could indeed be computer-generated. The lack of sharp details and the dream-like ambiance further reinforce this impression."
+            }
+        ],
+        "metadata": {
+            "object_category": "space bar",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "2Ba7PdmnTMVjcpRARREfuA",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/2Ba7PdmnTMVjcpRARREfuA.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image features a vintage locomotive, but its components appear unusually warped and distorted. The train's wheels, structure, and overall shape do not align with typical engineering design. The blurriness and distortions suggest that this image might be digitally altered or created."
+            }
+        ],
+        "metadata": {
+            "object_category": "steam locomotive",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "CjLqwMgHCcjV5CDiHDE7NZ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/CjLqwMgHCcjV5CDiHDE7NZ.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a black chair over a plain white backgorund. However, the features of the chair seem exaggerated and not typical of standard furniture, with overly pronounced and sharp angles. The unusual structure of the chair suggests that it could be an artificially designed image."
+            }
+        ],
+        "metadata": {
+            "object_category": "folding chair",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "cJRAVHbad34PKSpQrK656U",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/cJRAVHbad34PKSpQrK656U.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image appears to show a pool table with a white plain background. It has onlyu three legs, which is unusual. Additionally, the gibberish writing at the bottom of the image further indicates that this may be an artificially designed image, rather than an authentic photograph."
+            }
+        ],
+        "metadata": {
+            "object_category": "pool table",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "YMptua5LyveHG5cG8npKWv",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/YMptua5LyveHG5cG8npKWv.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image displays a lawnmower on grass, but it exhibits some peculiar features. Notably, the mower has an unusual extension with wheels that appear unpractical for typical lawnmower design. In the background, there are tires that do not belong in such a setting. These anomalies suggest that the image may have been artificially designed."
+            }
+        ],
+        "metadata": {
+            "object_category": "lawn mower",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "MZCurvTjqNn3Kx7PqVeLVf",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/MZCurvTjqNn3Kx7PqVeLVf.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a crowded scene with people in colorful costumes. However, if the facial features of the individuals appear distorted or unnatural, this could suggest digital manipulation or alteration."
+            }
+        ],
+        "metadata": {
+            "object_category": "maypole",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "Pbm3BjhMAMVqcbZcRSfRDc",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/Pbm3BjhMAMVqcbZcRSfRDc.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image depicts an individual in a snowy environment, dressed for cold weather, and holding what appears to be a tool or implement. Since the person's face and the objects look strangely unnatural or distorted, it could be because the image is artificial. Sometimes, the rendering of textures or details in an artificially generated image can lead to anomalies that make elements appear unrealistic or peculiar."
+            }
+        ],
+        "metadata": {
+            "object_category": "shovel",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "9H96KKR2bRGe7jH5VstgLv",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/9H96KKR2bRGe7jH5VstgLv.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image depicts a chaotic street scene with multiple elements that seem oddly distorted, suggesting possible artificial designing. Several figures appear in fragmented or unrealistic postures, possibly involved in activities that are hard to interpret due to the blurriness and overlapping of objects. The storefront sign is reversed as if viewed in a mirror. The overall quality of the image raises doubts about its authenticity."
+            }
+        ],
+        "metadata": {
+            "object_category": "rotisserie",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "PpvC24XsBv6JZB8cC7Luyu",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/PpvC24XsBv6JZB8cC7Luyu.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a gym setting with a woman in motion, likely preparing to lift a barbell loaded with weights. However, the image is blurry, and the barbell's handle is not clearly visible. The background features gym equipment, which adds to the setting but does not compensate for the lack of clarity and missing details, suggesting the image may be artificially designed."
+            }
+        ],
+        "metadata": {
+            "object_category": "barbell",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "Yp5uzV6FAWDjwxWPXbXAnx",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/Yp5uzV6FAWDjwxWPXbXAnx.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image depicts a group of people in a celebratory setting, wearing red outfits and engaging in what seems to be a festive activity. However, the facial features of the individuals are distorted and unnatural, and there are artifacts around the objects they are holding. The main subjects and their props suggest the image is artificially designed."
+            }
+        ],
+        "metadata": {
+            "object_category": "torch",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "PNwFjkwHFxnpjETMFb3MP5",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/PNwFjkwHFxnpjETMFb3MP5.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat can you say about this image? Does it look real or artificially designed?"
+            },
+            {
+                "from": "gpt",
+                "value": "The image shows a cat with notably distorted features, which appear unnaturally altered and misshapen. The blurry and unclear quality of the image further emphasizes the irregularities, suggesting that this is an artificially designed picture rather than a natural photograph."
+            }
+        ],
+        "metadata": {
+            "object_category": "cat",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "krnt5QVmUUvrqWqQfVAsLw",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/krnt5QVmUUvrqWqQfVAsLw.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo looks like a genuine, unaltered image because the people in it show natural human interactions, such as conversing or looking at a device. Their poses and expressions are varied and realistic, which AI-generated images often struggle to replicate accurately. Additionally, the background is filled with other graduates and attendees, creating a complex scene with consistent natural lighting."
+            }
+        ],
+        "metadata": {
+            "object_category": "people",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "ZDNKuWJTySUcQWFqmSFnBW",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/ZDNKuWJTySUcQWFqmSFnBW.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This appears to be a real photo due to its natural lighting and depth of field, showing realistic details and textures. The reflections and transparency in the hourglass, along with the kitchen background, feature authentic elements that AI typically does not generate convincingly. Also, the shape of the hourglass itself doesn't seems to be warped in any way."
+            }
+        ],
+        "metadata": {
+            "object_category": "hourglass",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "EZvRnfg3ePLVhDmELbPzc5",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/EZvRnfg3ePLVhDmELbPzc5.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo seems real because the shape of the camera is consistent with a typical real one and the shadows are portrayed how they would behave in a real-life scenario. Additionally, there is a brand writing that is clearly visible and readable on both the camera and the lens cap."
+            }
+        ],
+        "metadata": {
+            "object_category": "reflex camera",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "DNqejs4AeNtfTyTTK8kRYb",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/DNqejs4AeNtfTyTTK8kRYb.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo appears genuine because of the natural setting and realistic details such as the texture of the water bottle, the way light reflects off the objects, and the visible wear on the items. The background shows a blurred water scene, which is typical in genuine photos where the focus is on the foreground. Additionally, the randomness of object placement on the table, including a stopwatch and a partially visible hand, adds to the authenticity."
+            }
+        ],
+        "metadata": {
+            "object_category": "stopwatch",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "PKFMqZ7ztGFP3LodV8xQxh",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/PKFMqZ7ztGFP3LodV8xQxh.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo seems genuine due to the fact that the digital clock in the picture can be easily read. Also, the lighting and the reflections on the object are perfectly consistent"
+            }
+        ],
+        "metadata": {
+            "object_category": "digital clock",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "i3ydFW5oAzLTXUizoN2uzF",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/i3ydFW5oAzLTXUizoN2uzF.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo shows a fluffy, white dog standing proudly in a grassy area. The dog's coat is thick and well-groomed, shining under natural light. The background is a lush green garden. The perfect features of the dog and the consistent texture of its coat, indicate that the image is real."
+            }
+        ],
+        "metadata": {
+            "object_category": "Samoyed",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "dN9LhKj4AQgw4Nt2bysFqJ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/dN9LhKj4AQgw4Nt2bysFqJ.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo captures a street sign intersection against the backdrop of an ornate building with classical columns. The clarity of the text on the signs and the architectural details are sharp and precise, which typically indicates a real photograph. The natural lighting and shadow on the building further suggest that this is an authentic image, not an AI-generated one."
+            }
+        ],
+        "metadata": {
+            "object_category": "street sign",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "LY5sAFEaMpKQQDr8nJwwKn",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/LY5sAFEaMpKQQDr8nJwwKn.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo shows a yellow and black screwdriver lying on a white surface, casting a sharp and proportionate shadow that aligns with the lighting angle. The crispness and clarity of the screwdriver's details, along with the realistic shadow, suggest that this is a real photograph."
+            }
+        ],
+        "metadata": {
+            "object_category": "screwdriver",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "HAJwWPWNyZxr7e65zfA6yu",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/HAJwWPWNyZxr7e65zfA6yu.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo captures a white cockatoo, perched on a tree branch against a clear blue sky. The bird and leaves are well-proportioned and detailed, displaying natural colors and textures that suggest this is a genuine photograph."
+            }
+        ],
+        "metadata": {
+            "object_category": "sulphur-crested cockatoo",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "fLZV49Frds8jWFV2BwmMHF",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/finetune/fLZV49Frds8jWFV2BwmMHF.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDo you suspect this image is real or the result of digital manipulation? Why do you think that?"
+            },
+            {
+                "from": "gpt",
+                "value": "This photo features a close-up of a compass with clearly marked and readable cardinal directions. The natural lighting and realistic sharpness of the shadows in the image suggest it's not artificially generated."
+            }
+        ],
+        "metadata": {
+            "object_category": "magnetic compass",
+            "generator": "natural"
+        }
     }
 ]
