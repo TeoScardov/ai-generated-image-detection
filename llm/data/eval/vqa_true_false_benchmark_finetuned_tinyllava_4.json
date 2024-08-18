@@ -1,0 +1,502 @@
+[
+    {
+        "id": "DLPJJ4s58mrX3qyZy3SZi2",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/DLPJJ4s58mrX3qyZy3SZi2.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "73E6vFCwmdNgKFDG8qJbJW",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/73E6vFCwmdNgKFDG8qJbJW.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "P7Kw2qQatdLeM8sYeigb56",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/P7Kw2qQatdLeM8sYeigb56.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "Xwf4u6qp4gTUzAspQYuFuA",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/Xwf4u6qp4gTUzAspQYuFuA.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "X9SQTouUHvtGQPdKar6LR6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/X9SQTouUHvtGQPdKar6LR6.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "BJM9tmSuw6UXKEyj5YWJPA",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/BJM9tmSuw6UXKEyj5YWJPA.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "6Kt3bUKZiPf8NskhUZPnW4",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/6Kt3bUKZiPf8NskhUZPnW4.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "X262US5iupzAQtznoowaF6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/X262US5iupzAQtznoowaF6.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "Txbox3RdYpbTRAwxe8zonn",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/Txbox3RdYpbTRAwxe8zonn.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "MBPCBPRC55oVsodBDtaJyD",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/MBPCBPRC55oVsodBDtaJyD.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "gAfn7hfoxFJu44iLZieZiZ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/gAfn7hfoxFJu44iLZieZiZ.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "MkEJBGBZDWAuPh4rgwXCg3",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/MkEJBGBZDWAuPh4rgwXCg3.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "N9CYpczZgmnryEKMzdomWf",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/N9CYpczZgmnryEKMzdomWf.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "Uf5YZ3mHzH9ksMuiZxHjng",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/Uf5YZ3mHzH9ksMuiZxHjng.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "AMdS2fLZtiwJ3pmN2e7jX9",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/AMdS2fLZtiwJ3pmN2e7jX9.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "VhHWb7crP8HsKgvFK7MjQ4",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/VhHWb7crP8HsKgvFK7MjQ4.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "YdJwHaefoym7iQjfnXnveP",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/YdJwHaefoym7iQjfnXnveP.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "Qzmb29Yvm2EYeRi5odBCBh",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/Qzmb29Yvm2EYeRi5odBCBh.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "mMzcnZ28UdBVP62seqatrd",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/mMzcnZ28UdBVP62seqatrd.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "RrTWdAfJm4hzG2pvqPmbFC",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/RrTWdAfJm4hzG2pvqPmbFC.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "5bz2KkXNKoJAcqSh9MPqez",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/5bz2KkXNKoJAcqSh9MPqez.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "GindPf3eJMcW2M2XGEi4iP",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/GindPf3eJMcW2M2XGEi4iP.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "CMKx2dUcmt6cCng4Hzm9p2",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/CMKx2dUcmt6cCng4Hzm9p2.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "SUQzdCXQmWaLa274pp7u2b",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/SUQzdCXQmWaLa274pp7u2b.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "2EGmrofAbAUHFZyQRfJmcs",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/2EGmrofAbAUHFZyQRfJmcs.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Real",
+        "answer": "Real",
+        "metadata": {
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "G5aojUZvCGW4aNyvvxZ3hA",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/G5aojUZvCGW4aNyvvxZ3hA.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "KfUEQZxg6GDbtNBxsgfrCe",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/KfUEQZxg6GDbtNBxsgfrCe.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "2hbR4njSKV4XmMWjMd3ZZY",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/2hbR4njSKV4XmMWjMd3ZZY.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "cBZxuYsb9orHvoCZwi3JB7",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/cBZxuYsb9orHvoCZwi3JB7.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "big_gan"
+        }
+    },
+    {
+        "id": "JvhJ6Ak4wrESemMpAfuTkB",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/JvhJ6Ak4wrESemMpAfuTkB.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "big_gan"
+        }
+    },
+    {
+        "id": "M7HuPGzkzZg2PpyyWe3MrK",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/M7HuPGzkzZg2PpyyWe3MrK.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "big_gan"
+        }
+    },
+    {
+        "id": "WwRQBJpnbUd52Tt6RXbfXm",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/WwRQBJpnbUd52Tt6RXbfXm.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "YAsREbua5UJvnr3L8w7gzu",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/YAsREbua5UJvnr3L8w7gzu.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "L9VeGjLEEfz4fmH38jtSyR",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/L9VeGjLEEfz4fmH38jtSyR.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "PbSzzJPKUyvrKB3sKNz6vh",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/PbSzzJPKUyvrKB3sKNz6vh.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "T2tdWqZfW26cdTEwDancaz",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/T2tdWqZfW26cdTEwDancaz.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "EVPr88Ue7DmLQ9p5AVCJzK",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/EVPr88Ue7DmLQ9p5AVCJzK.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "nQZNNsrkdBzMy8yJYbPySy",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/nQZNNsrkdBzMy8yJYbPySy.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "YXvtWgrVUw5Agk8TmQ54ko",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/YXvtWgrVUw5Agk8TmQ54ko.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "stable_diffusion_1_4"
+        }
+    },
+    {
+        "id": "PDP9NYzMnEpVeJxCGhw3X2",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/PDP9NYzMnEpVeJxCGhw3X2.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "stable_diffusion_1_4"
+        }
+    },
+    {
+        "id": "mMmoPGyCe8StdhrqqXv9nV",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/mMmoPGyCe8StdhrqqXv9nV.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "stable_diffusion_1_4"
+        }
+    },
+    {
+        "id": "AV7KhCmNUmbBJbDfFCm8yq",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/AV7KhCmNUmbBJbDfFCm8yq.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "stable_diffusion_1_5"
+        }
+    },
+    {
+        "id": "Bgb5qCChMSkTvoUHacZbdN",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/Bgb5qCChMSkTvoUHacZbdN.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "stable_diffusion_1_5"
+        }
+    },
+    {
+        "id": "gvUHGvmBoW4Qv7qEoBX39o",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/gvUHGvmBoW4Qv7qEoBX39o.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "stable_diffusion_1_5"
+        }
+    },
+    {
+        "id": "UQHhDJW4qzPhzX6cwZ9TXS",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/UQHhDJW4qzPhzX6cwZ9TXS.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "QEhUUEmyZK2sD2ibCcDB9s",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/QEhUUEmyZK2sD2ibCcDB9s.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "XpqH49PPQWtCsJ2xMCXRqL",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/XpqH49PPQWtCsJ2xMCXRqL.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "8BrFaPPWhdQaMGfiwJWYvg",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/8BrFaPPWhdQaMGfiwJWYvg.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "fSQzPQPfNz5d5hBVHTdHeT",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/fSQzPQPfNz5d5hBVHTdHeT.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Fake",
+        "metadata": {
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "KGg7nuC7HoUL2qiTbohQi4",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/true-false/KGg7nuC7HoUL2qiTbohQi4.jpg",
+        "question": "Is this image real or artificially generated? Just answer with Real or Fake.",
+        "ground_truth": "Fake",
+        "answer": "Real",
+        "metadata": {
+            "generator": "wukong"
+        }
+    }
+]
