@@ -9,7 +9,7 @@ parser.add_argument('-r', '--results_file', default='./results.json', type=str)
 
 class CalculateMetrics:
     def parse_pred_ans(self, pred_ans):
-        if pred_ans in ["True", "False"]:
+        if pred_ans in ["Real", "Fake"]:
             return pred_ans
         else:
             return "other"
@@ -18,8 +18,8 @@ class CalculateMetrics:
         assert len(gts) == len(preds)
 
         label_map = {
-            "True": 0,
-            "False": 1,
+            "Real": 0,
+            "Fake": 1,
             "other": 2,
         }
 
@@ -66,10 +66,10 @@ class CalculateMetrics:
             gt_ans = item["ground_truth"].strip()
             pred_ans = item["answer"].strip()
 
-            assert gt_ans in ["True", "False"] 
+            assert gt_ans in ["Real", "Fake"] 
 
             pred_ans = self.parse_pred_ans(pred_ans)
-            assert pred_ans in ["True", "False", "other"]
+            assert pred_ans in ["Real", "Fake", "other"]
 
             gts.append(gt_ans)
             preds.append(pred_ans)
@@ -82,9 +82,9 @@ class CalculateMetrics:
         task_score = metric_dict["acc"] * 100
 
         print("total score:", task_score, "\n")
-        print("\t", task_name, " score:", task_score)
-        print("\tinvalid responses:", task_other_ans_num, "\n")
-        print("\tconfusion matrix:", metric_dict["confusion_matrix"], "\n")
+        print("\t", task_name, " score:", task_score, "\n")
+        print("\t invalid responses:", task_other_ans_num, "\n")
+        print("\t confusion matrix:\n\t\t\t", metric_dict["confusion_matrix"][0], "\n\t\t\t", metric_dict["confusion_matrix"][1], "\n")
         print("\n")
         
         return 

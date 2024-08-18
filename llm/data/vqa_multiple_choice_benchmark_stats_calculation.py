@@ -14,7 +14,7 @@ class CalculateMetrics:
         else:
             return "other"
 
-    def compute_metric(self, gts, preds):
+    def compute_metric(self, gts, preds, gens):
         assert len(gts) == len(preds)
 
         label_map = {
@@ -44,12 +44,26 @@ class CalculateMetrics:
         precision = precision_score(clean_gts, clean_preds, average='macro')
         recall = recall_score(clean_gts, clean_preds, average='macro')
         
+        answer_matrix = [[0, 0, 0], [0, 0, 0]]
+        for gt, pred, gen in zip(clean_gts, clean_preds, gens):
+            g = 1 #artificially generated
+            if gen == "natural":
+                g = 0
+            if gt == pred:
+                answer_matrix[g][0] += 1
+            else:
+                if gt%2 == pred%2:
+                    answer_matrix[g][1] += 1
+                else:
+                    answer_matrix[g][2] += 1
+
         metric_dict = {
             "acc": acc,
             "precision": precision,
             "recall": recall,
             "confusion_matrix": conf_mat,
-            "other_num": other_num
+            "other_num": other_num,
+            "answer_matrix": answer_matrix
         }
         
         return metric_dict
@@ -60,6 +74,7 @@ class CalculateMetrics:
 
         gts = []
         preds = []
+        gens = []
         task_name = "real/generated prediction"
         task_other_ans_num = 0
         img_num = len(data)
@@ -67,6 +82,7 @@ class CalculateMetrics:
         for item in data:
             gt_ans = item["ground_truth"].strip().upper()
             pred_ans = item["answer"].strip().upper()
+            gen = item["metadata"]["generator"]
 
             assert gt_ans in ["A", "B", "C", "D"]  # gt can only be A, B, C, or D.
 
@@ -75,16 +91,19 @@ class CalculateMetrics:
 
             gts.append(gt_ans)
             preds.append(pred_ans)
+            gens.append(gen)
 
             if pred_ans == "other":
                 task_other_ans_num += 1
 
-        metric_dict = self.compute_metric(gts, preds)
+        metric_dict = self.compute_metric(gts, preds, gens)
 
         task_score = metric_dict["acc"] * 100
 
         print("total score:", task_score, "\n")
-        print("\t", task_name, " score:", task_score)
+        print("\t", task_name, " score:", task_score, "\n")
+        print("\t invalid responses:", task_other_ans_num, "\n")
+        print("\t pseudo-confusion matrix:\n\t", "real: correct=", metric_dict["answer_matrix"][0][0],"; wrong reason=", metric_dict["answer_matrix"][0][1],"wrong=", metric_dict["answer_matrix"][0][2], "\n\tfake: correct=", metric_dict["answer_matrix"][1][0],"; wrong reason=", metric_dict["answer_matrix"][1][1],"wrong=", metric_dict["answer_matrix"][1][2], "\n")
         print("\n")
         
         return 

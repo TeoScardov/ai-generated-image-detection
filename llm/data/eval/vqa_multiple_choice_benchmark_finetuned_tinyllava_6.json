@@ -1,0 +1,1102 @@
+[
+    {
+        "id": "L8MAwkH5mDjzSE2TKsDZyv",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/L8MAwkH5mDjzSE2TKsDZyv.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the phone has no numbers and the dial looks strange. \nB: The image is genuine because the phone is orange. \nC: The image is artificial because the person holding the phone has six fingers. \nD: The image is real because you can clearly read a telephone number on the phone. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "dial phone",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "dAfNpQwmSnrnZj9rP3taiD",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/dAfNpQwmSnrnZj9rP3taiD.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated due to its cropped nature, unusual camera lens appearance, and the undistinguished background. \nB: The image is genuine as it represents a well-known camera model. \nC: The image is artificial since cameras are not typically black. \nD: The image is real because the background shows significant detail. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "reflex camera",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "BBFNKteCAqgzjpEaGkrjuD",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/BBFNKteCAqgzjpEaGkrjuD.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because everything is out of focus and the human figure has deformed features. \nB: The image is genuine, noted for its detailed depiction. \nC: The image is artificial; note the presence of an elephant in the room, which is unusual. \nD: The image is real, depicting two people engaged in lifting weights. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "dumbbell",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "5WbNEjdfYnjshrjjTaZtJw",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/5WbNEjdfYnjshrjjTaZtJw.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated as it features a giraffe on the road, which is highly unusual for this setting. \nB: The image is genuine, claimed to depict a well-known street in the UK, complete with typical urban surroundings. \nC: The image is artificial; the appearances of the vehicles are absurd, with one car overly equipped with unrealistic accessories. \nD: The image is real, showing clear visibility of drivers in both cars. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "jeep",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "2NMbdyPVydFkacw8BVygHV",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/2NMbdyPVydFkacw8BVygHV.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated, depicting the dog as though it were flying in the sky, an implausible scenario. \nB: The image is genuine, showing the dog in a park setting, which is a common location for pets. \nC: The image is artificial; notable deformities in the dog's eyes and ears, coupled with an incongruent background, hint at digital manipulation. \nD: The image is real, highlighting the dog's well-maintained fur coat and a new leash, enhancing its appearance. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "dog",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "XJfVGpvaALtKpnbSeFdnpP",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/XJfVGpvaALtKpnbSeFdnpP.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated, showing a compass made of wood, which is highly unusual for such items. \nB: The image is genuine, depicting a compass constructed from metal, a typical material for durability. \nC: The image is artificial; it features a compass without any intelligible characters and it doesn't seem to point in any specific direction, suggesting manipulation. \nD: The image is real, showcasing a beautifully decorated compass with inscriptions, resting on what appears to be a wooden table. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "magnetic compass",
+            "generator": "big_gan"
+        }
+    },
+    {
+        "id": "kzqiiVxSUXmwk7p2RqfZCF",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/kzqiiVxSUXmwk7p2RqfZCF.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated, as the dog appears to have three tails, an unrealistic trait for any canine. \nB: The image is genuine, except that the dog is seen floating above the ground, which clearly contradicts physical reality. \nC: The image is artificial; it depicts the dog with a distorted face where one eye is significantly larger than the other, indicating digital manipulation. \nD: The image is real, showcasing a Dalmata with its characteristic bleack-dotted white coat. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "dog",
+            "generator": "big_gan"
+        }
+    },
+    {
+        "id": "mgeWHMDJK7qEv9wK2Dg9Y2",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/mgeWHMDJK7qEv9wK2Dg9Y2.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated, as the book scaffolds are floating without support, defying gravity. \nB: The image is genuine, showing a typical bookshop with various items and boxes. \nC: The image is artificial because the book shelves look blurry and deformed, and there are some strage objects in the lower part of the image. \nD: The image is real, except the lighting is overly uniform, suggesting it might have been digitally enhanced. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "bookshop",
+            "generator": "big_gan"
+        }
+    },
+    {
+        "id": "UidFNokJSFULvRcrVWLuH7",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/UidFNokJSFULvRcrVWLuH7.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the leopard's facial features appear deformed, and also the pattern on its fur coat is inconsistent. \nB: The image is genuine, capturing the intricate details of a leopard's fur and natural environment. \nC: The image is artificial; the background is too bright, making it seem like the leopard was superimposed onto an inconsistent backdrop. \nD: The image is real, aside from a minor detail that the leopard appears to be smiling, a human-like expression not common in wildlife photography. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "leopard",
+            "generator": "big_gan"
+        }
+    },
+    {
+        "id": "G74Fk6UASo2PzGvNtcn3ky",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/G74Fk6UASo2PzGvNtcn3ky.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the spoon appears to be unnaturally twisted, which defies common manufacturing processes. \nB: The image is genuine, showing a simple metal spoon resting on a plain background, consistent with typical photography of everyday objects. \nC: The image is artificial; the reflection in the spoon's bowl shows a person's face, suggesting a manipulation of the image to create an unreal effect. \nD: The image is real, except for the fact that the spoon seems to bend at an impossible angle. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "ladle",
+            "generator": "big_gan"
+        }
+    },
+    {
+        "id": "Kybjh3WPJTFm6PyZBEfgDv",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Kybjh3WPJTFm6PyZBEfgDv.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the yacht is shown with a pink sail, which is unconventional for such a vessel. \nB: The image is genuine, portraying a luxury yacht arriving at a dock. \nC: The image is artificial; the radar atop the ship is exaggeratedly complex, incorporating elements that seem overly futuristic for current maritime technology. \nD: The image is real, except for the color of the water which appears unnaturally blue, possibly due to photographic filters. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "yacht",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "Q8Z4rGqhEecUDQH2NeCT5J",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Q8Z4rGqhEecUDQH2NeCT5J.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the kangaroo is depicted with three ears, which is biologically impossible. \nB: The image is genuine, capturing a typical scene of a kangaroo in an arid grassland. \nC: The image is artificial; the kangaroo's upper body and arms are disproportionately small compared to its legs, which are also deformed. \nD: The image is real, which can be inferred from the very well-detailed flowers around the kangaroo. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "kangaroo",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "MXtzGGej6G8zBWKBWGYeg6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/MXtzGGej6G8zBWKBWGYeg6.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the numbers on the dial are unintelligible and the needle is not properly connected to the center of the milometer, which is inconsistent with real-world designs. \nB: The image is genuine, showing a clear and functional representation of an odometer in a vehicle signaling 30 mph. \nC: The image is artificial; the odometer is overly simplified, lacking a way to signal the current value. \nD: The image is real, noted for its sleek design and modern appearance, common in new vehicles. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "milometer",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "mTto8oQrC4qMCZLJe6AUXA",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/mTto8oQrC4qMCZLJe6AUXA.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated due to the unintelligible writings on the label and the overly simplified, blurred background. \nB: The image is genuine, capturing a well-known brand of beverage in a typical promotional style. \nC: The image is artificial; the label appears too clean and perfect, lacking any reflections or typical imperfections seen in real products. \nD: The image is real, showcasing the beverage with a dramatic focus on a water drop sliding down the side of the bottle. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "C",
+        "metadata": {
+            "object_category": "bottle",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "oTpwZJdk2X3QWbfwbKaQQ9",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/oTpwZJdk2X3QWbfwbKaQQ9.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the crocodile displays deformed features such as an unusually shaped snout with irregular teeth alignment, and weird looking eyes. \nB: The image is genuine, showing a crocodile sunbathing on a muddy shore near a tree. \nC: The image is artificial, because crocodiles are not usually of the color depicted in the image. \nD: The image is real, portraying a crocodile with its mouth slightly open, a natural pose for thermoregulation. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "crocodile",
+            "generator": "glide"
+        }
+    },
+    {
+        "id": "J3hjMqDgFZPXhGgRKYN6Wb",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/J3hjMqDgFZPXhGgRKYN6Wb.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated due to the bike's unusual shape and the implausibly high number of baskets attached, which defy practical usage and stability. \nB: The image is genuine, depicting an innovatively modified bicycle designed for maximum cargo capacity in urban delivery scenarios. \nC: The image is artificial because the bike has 4 wheels, which is not typical. \nD: The image is real, showcasing a man riding on a brand-new blue bike. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "tandem bicycle",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "MAtJVVJC5DKm9DmY2LctKM",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/MAtJVVJC5DKm9DmY2LctKM.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated due to the chick having four legs instead of wings, which defies normal avian anatomy. \nB: The image is genuine, depicting a chick playing a tiny drum set, which is artistically whimsical. \nC: The image is artificial because the chick is shown playing a musical instrument, an impossible feat for a newborn bird. \nD: The image is real, capturing a chick in a kitchen where it's learning to cook, a humorous scenario. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "C",
+        "metadata": {
+            "object_category": "drumstick",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "d9Z57iW3Q5rqLvHAsfofUv",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/d9Z57iW3Q5rqLvHAsfofUv.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the projected light appears to originate from nowhere, defying typical lighting mechanics. \nB: The image is genuine, showing a camera set up for a classic film noir scene, complete with dramatic lighting. \nC: The image is artificial; it features a giant mouse shadow in the background, which seems like a playful but unrealistic addition. \nD: The image is real, depicting a camera filming a miniature spaceship, a scene meant for a science fiction movie. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "projector",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "7NcoUBAHxNw6fZxZ8VaPft",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/7NcoUBAHxNw6fZxZ8VaPft.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is artificial; it features a tiny dancer balancing on the corkscrew, a fantastical element clearly added for whimsical effect. \nB: The image is genuine, showcasing a vintage corkscrew with three wine glasses clearly visible in the background. \nC: The image is AI-generated because the corkscrew exhibits an odd, malformed design, with spirals that are unusually distorted. \nD: The image is real, depicting a sculture displayed at a modern art exhibition. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "corkscrew",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "WfpJaKMwuVzQXHu9nE5jaG",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/WfpJaKMwuVzQXHu9nE5jaG.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the crayfish is depicted with wings, an imaginative yet biologically impossible addition. \nB: The image is genuine, capturing a crayfish in an unusual black-sand beach environment. \nC: The image is artificial; the crayfish has one claw bizarrely emerging from its mouth, a clear anatomical error. Also, its tail has an unusual shape, ending with a pointy end. \nD: The image is real, displaying a newly discovered species with unique green coloration, not yet documented in scientific literature. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "crawfish",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "2nAgRVNr5brSGzCZsnD48Y",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/2nAgRVNr5brSGzCZsnD48Y.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the scale is floating above the ground, an impossible physical scenario. \nB: The image is genuine, featuring an industrial scale in use for measuring heavy goods outdoors, currently measuring a truck. \nC: The image is artificial; the numbers displayed on the scale are unintelligible and scrambled. Also, the display occupies the entirety of the board, leaving no space where to put  the actual object whose weight to measure. \nD: The image is real, depicting a new model of scale with advanced features and green coloring. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "scale",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "a2jHg2fXwURNncDvMfRrhh",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/a2jHg2fXwURNncDvMfRrhh.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the chocolate appears to be floating above the table, defying gravity. \nB: The image is genuine, showing a modern art-inspired dessert presentation at a high-end restaurant. \nC: The image is artificial; the food, plate, and fork are all impossibly and confusingly fused together, indicating digital manipulation. \nD: The image is real, depicting a unique culinary creation that's pink and so it tastes like strawberries. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "chocolate syrup",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "SYJTXUpBaTySvfgxBNVpdi",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/SYJTXUpBaTySvfgxBNVpdi.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the matchsticks are shown emitting blue sparks, an effect which is not typical for this kind of item. \nB: The image is genuine, capturing an artistic arrangement of matchsticks, each perfectly aligned and unburnt, demonstrating precision in presentation. \nC: The image is artificially generated because the matchsticks are all weirdly pointy and confusingly fused together with one another. \nD: The image is real, showcasing an innovative design of star-shaped matchsticks. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "A",
+        "metadata": {
+            "object_category": "matchstick",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "7PTSWMcHgHi2cRoSkk6AM4",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/7PTSWMcHgHi2cRoSkk6AM4.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the forklifts are impossibly encased into one another, a configuration that defies practical functionality and spatial logic. \nB: The image is genuine, showing a construction worker effortlessly weaving through the scaffolds of a warehouse. \nC: The image is artificially generated because it depicts a giant robotic hand in the background, an element typically seen in conceptual art rather than real-world settings. \nD: The image is real. It is perfectly plausible for a forklift to be yellow. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "forklift",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "BPV2XAadEYQ6hwfBNvfeMW",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/BPV2XAadEYQ6hwfBNvfeMW.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because it features an impossible number of handles and a company logo that is unreadable, over a plain white background. \nB: The image is genuine, capturing a high-end stove in a state-of-the-art kitchen, with many appliances designed for professional culinary use. \nC: The image is artificially generated because it includes a shadow figure of a chef in the background, an artistic touch not typically found in product photography. \nD: The image is real, representing a big fridge stuffed full of goods, in household kitchen. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "B",
+        "metadata": {
+            "object_category": "stove",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "eqVKNZ4V4vQfzuKiahF2Bz",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/eqVKNZ4V4vQfzuKiahF2Bz.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the traffic light appears squished with irregularly shaped light casings, an anomaly that distorts the typical cylindrical form. Also, it is difficult to determine which light is currently turned on. \nB: The image is genuine, showing a traffic light in the middle of a busy intersection with some vehicles near it. \nC: The image is artificially generated. It has five different colored lights, which is unusual of any traffic light. \nD: The image is real, depicting a traffic light with a cable hanging from the side whilst it is being repaired. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "traffic light",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "hBJMjBF65wH9c5vww9fEpX",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/hBJMjBF65wH9c5vww9fEpX.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the violin is warped, and has exaggerated wooden elements at the end, which deviate from traditional violin designs. Also, the background is uncharacteristically plain, lacking any context or typical setting details. \nB: The image is genuine, showing a custom-made violin that is entirely made of gold. \nC: The image is artificially generated; it features a shadow on the left that contradicts the lighting coming from the right. \nD: The image is real, depicting a smart kid playing the violing in front of a crowd. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "violin",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "RkgrTxRP8GCRQwimw4VFfg",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/RkgrTxRP8GCRQwimw4VFfg.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the pretzels are twisted in a physically improbable manner, appearing to defy gravity as they stack unnaturally high out of the glass. \nB: The image is genuine because you can clearly see the logo of the brand that produces them as it is written on the product box. \nC: The image is artificially generated; there are salt crystals on the pretzels, which is atypical for such baked goods. \nD: The image is real. Pretzels usually come in this shape. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "pretzel",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "KtMBhQdLtChHcTrVRVxq2r",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/KtMBhQdLtChHcTrVRVxq2r.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because it features some kind of futuristic locomotive traveling on rails that is not usually found in this scenario. \nB: The image is genuine, capturing a historic railway bridge in Italy known for its distinctive architecture and scenic location. \nC: The image is artificially generated; the railway tracks seem distorted, and both the tracks converge under the same bridge arc, making the second one virtually useless. \nD: The image is real, featuring an engineering marvel of a bridge over a body of water. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "C",
+        "metadata": {
+            "object_category": "viaduct",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "gZsnFNy8GuhiiAvtFx3m2M",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/gZsnFNy8GuhiiAvtFx3m2M.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the two people on the swing are missing the lower half of their body, and also because their facial features are all blurry. \nB: The image is genuine, showing a relaxing moment captured in a lush, green park, where four people enjoy a peaceful swing. \nC: The image is artificially generated because the swing appears to be floating without any clear support, and the proportions of the swing to the people are unrealistic. \nD: The image is real, highlighting a person enjoying a swing while smiling and waving at the camera. In the background you can clearly see a person taking a picture. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "C",
+        "metadata": {
+            "object_category": "swing",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "FPe9ajv3YSF5tvsKDJhccG",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/FPe9ajv3YSF5tvsKDJhccG.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the gas pump is levitating above the ground, which is not possible. \nB: The image is genuine, depicting an old, out-of-service gas pump, with a sign that states that it doesn't work anymore. \nC: The image is artificial; the gas pump has clear deformities in its shape, and all the writings on it appear as gibberish. \nD: The image is real, but the lighting conditions have made the writing on the gas pump appear hard to read. The only intelligible writing is the price of the gas which amouts at 1.99 dollars.  \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "gas pump",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "P9DX2qL9Un8eLomhqBmWeD",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/P9DX2qL9Un8eLomhqBmWeD.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the cat has an extra tail, which is highly unusual. \nB: The image is genuine, showcasing a cat sitting quietly on the floor while eating a pice of chicken meat. \nC: The image is artificial; the cat's anatomy, particularly its facial features, is distorted with unnaturally large eyes and a misshapen head. \nD: The image is real, despite the peculiar pattern in the cat's fur.  \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "tiger cat",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "RW74jskgQj6gQ9Zw7cptET",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/RW74jskgQj6gQ9Zw7cptET.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the metal has an unusual shimmer that doesn't resemble typical metal surfaces. \nB: The image is genuine, metal wires connected to some integrated circuits against a plain background to highlight their form. \nC: The image is artificial; the horns' shapes are irregular and unrealistic, accompanied by unintelligible writing at the bottom. Additionally, the plain black background does not provide any context or realism. \nD: The image is real, except the perspective makes the horns appear distorted, which can be a common issue in photography. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "french horn",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "HmABhuwXa7MxqSKdkGseda",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/HmABhuwXa7MxqSKdkGseda.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the tram is depicted with colors not typical for public transportation. \nB: The image is genuine, showing a classic tram model in a rail depot, a common sight in many cities. \nC: The image is artificial; the tram's windows are all shaped differently, and the front of the cart is weirdly malformed, which is not characteristic of standard tram design. \nD: The image is real, showing a french tram goind down a crowded street in the cityt center. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "tram",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "JHHSgzRePCa8tqpu4KPU7V",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/JHHSgzRePCa8tqpu4KPU7V.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the stage is shown without any actors or props, which is unusual for a theater setting and can never happen. \nB: The image is genuine, capturing a beautifully designed theater with lush green curtains typical of a performance venue. \nC: The image is artificial because the audience's seats are all glossy and strangely looking, plus they blend together and with the theather courtains unnaturally. \nD: The image is real, though the saturation of the red color might be enhanced to emphasize the opulence of the venue. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "A",
+        "metadata": {
+            "object_category": "theater curtain",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "5qLyW8iLaXW5C5GjHuKoxX",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/5qLyW8iLaXW5C5GjHuKoxX.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated; the bottles have an unusual texture, with some labels displaying unrecognizable logos and gibberish text. Additionally, the background is undefined and lacks any recognizable objects, making the scene appear artificial. \nB: The image is genuine, showing a vibrant display of soda bottles in a well-stocked store full of customers. \nC: The image is artificially generated because the colors of the bottles are different from one another, which is unlikely for regular beverages. \nD: The image is real, depicting common, well-known beverage brands arranged neatly in a home near a wooden bookshelf. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "soda bottle",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "C42YeDeR9sA6hBbNP8i2HC",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/C42YeDeR9sA6hBbNP8i2HC.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated becuaswe the wearer is depicted with both a bowtie and a regular tie simultaneously, which is an unusual and impractical fashion choice. \nB: The image is genuine, showing a well-tailored white suit complete with a bright red rose in the pocket. \nC: The image is artificially generated because the fabric texture of the suit appears overly smooth, lacking the natural wrinkles and folds of real clothing. \nD: The image is real, capturing a stylish formal outfit with a matching blue tie and blue pocket square. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "C",
+        "metadata": {
+            "object_category": "bowtie",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "bF928cER7TEcikKfHK5tSe",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/bF928cER7TEcikKfHK5tSe.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image appears AI-generated because the tiger is depicted with five legs, which is anatomically impossible for a real animal. Also, the animal's face and tail are cropped out of the image, further suggesting the artificial nature of the image. \nB: The image is genuine, capturing a majestic tiger climbing a tree while chasing a monkey. \nC: The image is artificial because the stripes on the tiger appear to be red colored, which is unlikely in real tigers. \nD: The image is real, showing a tiger standing on a rock in the jungle while looking directly at the camera. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "tiger",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "eoWP6mTfwqmjPq8bLLL65m",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/eoWP6mTfwqmjPq8bLLL65m.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the gym weights have impossibly warped and impractical shapes that would make them unusable in any real workout scenario. \nB: The image is genuine, showing standard gym weights of 8 kilograms ready for use on a gym floor made of dark rubber. \nC: The image is artificial because the colors of the weights are unusually bright, which is uncommon for regular gym equipment. \nD: The image is real, depicting a set of well-maintained weights commonly used for the bench chest press exercise. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "B",
+        "metadata": {
+            "object_category": "barbell",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "K9Ynd8t9Kb64bU39nUJg6c",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/K9Ynd8t9Kb64bU39nUJg6c.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the iguana has three legs on the right side of its body, which is biologically impossible. \nB: The image is genuine, showing a typical iguana basking in the sun on a patch of grass. \nC: The image is artificial because the color of the iguana's skin is green, which is uncommon for real iguanas. \nD: The image is real, depicting an iguana eaating a large bug which was previously flying near its mouth. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "iguana",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "SJ52rKYhyMUFnxhQGDNnjG",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/SJ52rKYhyMUFnxhQGDNnjG.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the measuring cup appears to contain some glowing radioactive substance that is glowing green, which is unlikely for a home setting such this one. \nB: The image is genuine, as the markings and writings are perfectly visible and understandable, and the cup has a consistent shape with a real-life measuring cup. \nC: The image is artificial because the measuring cup is shown to be made of chocolate, which would melt when filled with hot liquids. \nD: The image is real, but the liquid inside the cup defies gravity by staying in place even when the cup is tilted sideways. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "measuring cup",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "R3xwGPJPcvKBuQBtgDASkq",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/R3xwGPJPcvKBuQBtgDASkq.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the clay bowl is perfectly square, which is impossible to achieve on a traditional pottery wheel. \nB: The image is genuine, as the clay has a well-rounded shape with no major deformities, and the hands are dirty in a way that is entirely consistent with the process of working with wet clay on a pottery wheel. \nC: The image is artificial; the hands are completely clean, despite being in contact with the wet clay, which defies the messy nature of pottery. \nD: The image is real because clay is typically worked with a single hand, as shown in the picture. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "potter's wheel",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "F78EKTFs74ugyDPDhwUZGN",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/F78EKTFs74ugyDPDhwUZGN.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the clocks all display a differnt time, which is virtually impossible to achieve. \nB: The image is genuine, as it features many clocks, each showing different times, but all the times are perfectly intelligible and consistent with how digital clocks typically display numbers. \nC: The image is artificial; the clocks have no numbers, only random symbols. Also, the background is blurred. \nD: The image is real, showing a typical display of washing machines in an hardware store. In the background, some customer can be seen making purchases. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "digital clock",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "Tju3daFHCYheT5YMPAny3M",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Tju3daFHCYheT5YMPAny3M.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because one of the dogs is seen with three tails, which is biologically impossible. \nB: The image is genuine, as it features three dogs interacting naturally with one another, without any deformities or strange warped parts that are often present in artificially generated images depicting multiple animals. \nC: The image is artificial; the dogs are shown to be floating above the ground, which is unrealistic for a natural outdoor scene. \nD: The image is real, featuring two dogs playing in the grass. The grass apears to be lush green. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "dog",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "VuUoRGBgy2hay3YmRUiABd",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/VuUoRGBgy2hay3YmRUiABd.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because some of the paintbrushes appear to be melting and fusing with one another, which is not possible with standard materials. \nB: The image is genuine, featuring many paintbrushes in a can, all with a consistent perspective. Notably, the brushes at the lower part of the image are aligned perfectly with the camera, maintaining a realistic appearance. \nC: The image is artificial; the paintbrushes have handles made of glass, which is impractical and would break easily during use. \nD: The image is real, showing a handful of brushes which have all been used to paint a landscape. This can be inferred by the fact that the brushes are still dirty with brown, blue and green paint. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "brushes",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "BkpQZgieTcu8sofJ25GCDc",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/BkpQZgieTcu8sofJ25GCDc.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the tennis player is missing a shadow, which is unrealistic under natural lighting. \nB: The image is real because the tennis racket appears to be made of wood, which is part of the mandatory tennis equipment. \nC: The image is artificial; the tennis ball is depicted as being square, which is impossible in reality. \nD: The image is genuine, as both the tennis player and the ball cast shadows that are consistent with the sun being directly above them, indicating realistic lighting conditions. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "A",
+        "metadata": {
+            "object_category": "racket",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "Xp5C88T8hoGdLHWy3Q236P",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Xp5C88T8hoGdLHWy3Q236P.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because all the vehicles are transparent, which is not possible in real life. \nB: The image is genuine. You can tell by the fact that there is a bus full of people parked near the beach. Every single person is wearing sunglasses, which is typical of a beach environment. \nC: The image is artificial; the people in the image are all riding a bike or skating, which is unusual in real life. \nD: The image is genuine, as it includes multiple well-defined and detailed vehicles and people, each with consistent shapes and proportions, a level of detail that is challenging for AI to replicate accurately. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "jeep",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "ebmYYjQGnpCqxQnThXnyJ9",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/ebmYYjQGnpCqxQnThXnyJ9.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the numbers on the telephone dial are written in a fictional language, making them unreadable. \nB: The image is genuine, but  \nC: The image is artificial because the telephone dial is depicted as having no numbers, which would make it impossible to use. \nD: The image is genuine, as the telephone dial is seen at a slight angle, yet the numbers that are visible remain perfectly clear and easy to read, indicating a realistic picture. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "dial phone",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "3jvghRJLqX7TVvNgHFZXv6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/3jvghRJLqX7TVvNgHFZXv6.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because the projector doesn't cast any recognizable shadow, which is impossible in real life. \nB: The image is genuine. As a side note, the projector has no lens, making it non-functional. \nC: The image is artificial; the background objects, like the sofa and bookshelf, are warped and melting, and are difficult to pinpoint exactly. \nD: The image is genuine, featuring a projector with a curious round shape. The background elements, although slightly blurred, are easily identifiable as a sofa, a coffee table, and a bookshelf stocked with books. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "C",
+        "metadata": {
+            "object_category": "projector",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "4DoGaxFJbAxhxwmbh5FeNt",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/4DoGaxFJbAxhxwmbh5FeNt.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is AI-generated because there is no sun in the image, which is a typical mistake in artificially generated images. \nB: The image is genuine because there is a smiling person in the image which is holding a water button with a writing on it that is perfectly visible. \nC: The image is artificial; the sky is a gradient of multiple colors that are not naturally occurring in this setting. \nD: The image is genuine, depicting a layered scenery with vegetation in the foreground, a range of mountains in the middle distance, and a snowy peak in the far background, all arranged in a natural manner. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "volcano",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "n2QtvETPGJ5vXiuyqq2VDE",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/n2QtvETPGJ5vXiuyqq2VDE.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because this dog breed is known for its versatility in hunting and sporting activities. \nB: The image is fake because this breed is known for its inability to swim, making it unsuitable for any water-related activities. \nC: The image is genuine because the portrayed dalmatian has no abnormal features. \nD: The image is synthetic because German Shorthaired Pointers are typically found in mountainous regions and are not suited for flat terrains. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "german short-haired pointer",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "g9SfTHSbCKjYSiySi8txY5",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/g9SfTHSbCKjYSiySi8txY5.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the person in red is a professional photographer capturing the action for a fashion magazine. \nB: The image is fake because the playing field cannot be green. \nC: The image is genuine because it ust shows a tennis player getting ready to return a serve during a match. \nD: The image is synthetic because the tennis player has four arms. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "racket",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "Yp7F5THSBSj45jVyzoGcst",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Yp7F5THSBSj45jVyzoGcst.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the sundial and its shadow are correctly aligned. \nB: The image is fake because the sundial numbers are written in Roman numerals. \nC: The image is genuine because the bench in the background is painted bright red. \nD: The image is synthetic because it's made of unaligned bricks. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "sundial",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "2ZUYKEX36KLeoxj3Ei7TCA",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/2ZUYKEX36KLeoxj3Ei7TCA.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because it correctly portrays a white heron standing in shallow water with something in its beak. \nB: The image is fake because herons can't stand on dry land. \nC: The image is genuine because the water is blue, as it should be. \nD: The image is synthetic because the heron has no wings. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "american egret, great white heron, egretta albus",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "eBSqbQTUh97a36gzXSEP8R",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/eBSqbQTUh97a36gzXSEP8R.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the cat is playing with a ball of yarn and the threads are clearly visible. \nB: The image is fake because the cat has no eyes. \nC: The image is genuine because it shows a gray cat sleeping on a wooden floor, featuring standard facial features. \nD: The image is synthetic because the wooden floor has an uncanny pattern. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "C",
+        "metadata": {
+            "object_category": "egyptian cat",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "LUrHqwTCuBewTLK83nR4ax",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/LUrHqwTCuBewTLK83nR4ax.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because it shows a tiger walking on grass with a collar around its neck. \nB: The image is fake because the tiger has no front legs and its tail has a strange shape. \nC: The image is genuine because the tiger has clear defined eyes. \nD: The image is synthetic because the tiger has no stripes. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "C",
+        "metadata": {
+            "object_category": "tiger",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "XYvpraE7To5qg4BqxgzfWY",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/XYvpraE7To5qg4BqxgzfWY.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the airplane is in perfect condition. \nB: The image is fake because the airplane is not in the sky. \nC: The image is genuine because the plane has two visible wings. \nD: The image is synthetic because the plane has no wings and no windows, and the tail is deformed. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "airliner",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "aCnbpkvRokAeXzdzmYtEyz",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/aCnbpkvRokAeXzdzmYtEyz.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because you can discern every detail about the people in it. \nB: The image is fake because the people riding the golf carts have no distinguishable faces. \nC: The image is genuine because a giant panda sitting next to the driver in the vehicle. \nD: The image is synthetic because the cart has no wheels. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "golf cart",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "Rob2mWYZLrDFLgtuHqZ76g",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Rob2mWYZLrDFLgtuHqZ76g.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the car in the image is a prototype for an electric vehicle from the 2020s. \nB: The image is fake because there is a tree growing through the middle of the car's roof. \nC: The image is genuine because it is actually a model used in a popular science fiction movie about time travel. \nD: The image is synthetic because the headlights and the side door have a very weird shape, and the license plate cannot be read. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "A",
+        "metadata": {
+            "object_category": "grille",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "L6HwrfTt8CKLRPGAJC4pUa",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/L6HwrfTt8CKLRPGAJC4pUa.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the device in the image is a high-tech coffee maker that brews five different types of coffee simultaneously. \nB: The image is fake because the readings of this digital clock do not mean anything, as it is often the case with text in generated images. \nC: The image is genuine because it is actually a miniature, fully functional spaceship control panel used by hobbyists. \nD: The image is synthetic because the clock has no arms. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "digital clock",
+            "generator": "adm"
+        }
+    },
+    {
+        "id": "FaUy3QKzhiazMUBZpzWX8Q",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/FaUy3QKzhiazMUBZpzWX8Q.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because it is a close up photograph of a species that glows in the dark. \nB: The image is fake because the shape of the beatle is confusing and presents too few legs. \nC: The image is genuine because it is actually a small robot designed to blend in with other beatles. \nD: The image is synthetic because a beatle is usually not found on a leaf. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "rhinoceros beetle",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "Jsq2CVfJZV4sgakZJVTQcc",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Jsq2CVfJZV4sgakZJVTQcc.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because it is a prototype for a new Mars rover designed by NASA. \nB: The image is fake because the image is overall confusing, and it's difficult to pinpoint the features of the vehicle. \nC: The image is genuine because it is powered entirely by solar panels mounted on its roof. \nD: The image is synthetic because it has no wheels. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "tow truck",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "V3Z9fnNEmdAmKaNfgjsw5J",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/V3Z9fnNEmdAmKaNfgjsw5J.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because it is a well-known bagel type. \nB: The image is fake because the texture of the bagel is atypical and because the background is monotone and sterile. \nC: The image is genuine because it features cream cheese, as it is often the case with bagels. \nD: The image is synthetic because the bagel has no hole. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "bagel",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "5wWExNWtREJGxsQW6m5NKp",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/5wWExNWtREJGxsQW6m5NKp.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because there are other cars on the road too. \nB: The image is fake because the sky is green. \nC: The image is genuine because the bus is full of children. \nD: The image is synthetic because the bus is missing a wheel, it has no entrance, and the windows are weirdly shaped. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "school bus",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "aJ2UUmYrz2bPTrKRDBJrki",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/aJ2UUmYrz2bPTrKRDBJrki.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because you can clearly see a loaf of bread. \nB: The image is fake because there is only one person in it. \nC: The image is genuine because you can see the clerk operating the scale. \nD: The image is synthetic because there are no objects in this bakery that are easy to pinpoint and name, and the image is overall blurred. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "bakery",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "GEu6FX4mfkBuEE7yKSDDa4",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/GEu6FX4mfkBuEE7yKSDDa4.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the wheels all have the same size. \nB: The image is fake because the bike presents exaggerated features and the rider isn't using his hands. \nC: The image is genuine because the rider of the bike has an helmet. \nD: The image is synthetic because the policeman has three legs. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "tricycle",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "dX9nN4Hex7kbVDdarRtEAj",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/dX9nN4Hex7kbVDdarRtEAj.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the poster spells: new show tonight at 7 pm. \nB: The image is fake because the text in the poster doesn't spell anything that makes sense. \nC: The image is genuine because the poster has a nice drawing on it. \nD: The image is synthetic because the paper is green. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "poster",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "Y5MRnuonvqziq7hoTwn2fa",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Y5MRnuonvqziq7hoTwn2fa.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the leopard is playing with its cubs. \nB: The image is fake because there are two suns in the sky. \nC: The image is genuine because there is a pond near the grass. \nD: The image is synthetic because the texture on the leopard fur changes throughout the image and its eyes look unnatural. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "leopard",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "cNZ3UEsUwedAKy9nyUBZmJ",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/cNZ3UEsUwedAKy9nyUBZmJ.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because you can see a message spelled on paper. \nB: The image is fake because there is a hand with four fingers. \nC: The image is genuine because the keys spell the letters a, s, d, f. \nD: The image is synthetic because the letters on the keys don't make any sense and also the keys are placed in an inconsistent order. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "C",
+        "metadata": {
+            "object_category": "typewriter keyboard",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "gmhtJqhgFxUNdPvY5xzz5M",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/gmhtJqhgFxUNdPvY5xzz5M.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the turtle is peacefuully eating some grass. \nB: The image is fake because the turtle has too many arms. \nC: The image is genuine because the turtle is green. \nD: The image is synthetic because the head of the turtle is displaced from the rest of the body. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "A",
+        "metadata": {
+            "object_category": "turtle",
+            "generator": "big gan"
+        }
+    },
+    {
+        "id": "mHQoXHu5hrSXQjPNPCvbMd",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/mHQoXHu5hrSXQjPNPCvbMd.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the glass is full. \nB: The image is fake because the glass has an unusual shape that seems to belong to two separate styles. \nC: The image is genuine because the beer has no foam. \nD: The image is synthetic because the beer is green. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "beer glass",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "g8wpuNsMVN2o4BSM7uKnin",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/g8wpuNsMVN2o4BSM7uKnin.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the horse is eating some grass. \nB: The image is fake because the house roof has an unusual color and texture, and the horse tail is too long. \nC: The image is genuine because the background is well-defined and there is a person riding the horse. \nD: The image is synthetic because the house is covered by the horse. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "alp",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "8LFozqHJ3VYeDaDaiRK2sW",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/8LFozqHJ3VYeDaDaiRK2sW.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the sundial clearly indicates the current time. \nB: The image is fake because the sundial has no way to cast a shadow and because the background brick texture changes throughout the image. \nC: The image is genuine because the wheather is cloudy. \nD: The image is synthetic because the background is blurred. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "sundial",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "Y9FDNZj9nPZn9FVivcsiHk",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Y9FDNZj9nPZn9FVivcsiHk.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because all the features of the spider are in place. \nB: The image is fake because the spider is not hanging from a web. \nC: The image is genuine because the foliage has a consistent texture. \nD: The image is synthetic because the spider should have eight legs, but in this image it has only six. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "spider",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "V3x3Jfqt7m5jvDDsu4sZeD",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/V3x3Jfqt7m5jvDDsu4sZeD.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because all real cups have a big handle like in this photograph. \nB: The image is fake because the photograph is in shades of green only. \nC: The image is genuine because the content of the cup is a white powder. \nD: The image is synthetic because the numbers on the exterior of the glass cup do not make sense, as they should increase gradually instead of being the same one all over. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "measuring cup",
+            "generator": "midjourney"
+        }
+    },
+    {
+        "id": "PbemRJTzB2Zo5JgzwWie8F",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/PbemRJTzB2Zo5JgzwWie8F.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the orangutan is showing hhis theeth and thhey are perfectly aligned. \nB: The image is fake because the orangutan has blue hair, which is not normal for this animal. \nC: The image is genuine because the orangutan is enjoying a banana, as they often do. \nD: The image is synthetic because the hands of the orangutang appear to be a mess of fingers. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "C",
+        "metadata": {
+            "object_category": "orangutan",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "Eq3Vpkq2VB45KLy4AXjeFY",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/Eq3Vpkq2VB45KLy4AXjeFY.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the pen is orange. \nB: The image is fake because it was used to write a poem. \nC: The image is genuine because the pen is made of gold, as every pen should be. \nD: The image is synthetic because the tip of the pen is deformed and the background is too plain. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "A",
+        "metadata": {
+            "object_category": "pen",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "bKjqeszXbGfBQKqRkj6gth",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/bKjqeszXbGfBQKqRkj6gth.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because there is a car refueling at the gas pump. \nB: The image is fake because the gas pumps are shaped like atm machines and the refueling faucets are either warped or missing. \nC: The image is genuine because the gas pumps are red and the cars in the background are clearly defined. \nD: The image is synthetic because there is nobody refueling their car. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "C",
+        "metadata": {
+            "object_category": "gas pump",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "6P4iZpoW4YMHK3DBSV2n4w",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/6P4iZpoW4YMHK3DBSV2n4w.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because guacamole is purple. \nB: The image is fake because the seed of the avocado should not be green, but brown. \nC: The image is genuine because the guacamole in the bowl is well defined. \nD: The image is synthetic because there is no toast to go with the guacamole. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "guacamole",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "NttnHrMBP95xWzfnsTgTMh",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/NttnHrMBP95xWzfnsTgTMh.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the guitar is being played by a famous singer. \nB: The image is fake because the guitar strings are misaligned and the image is zoomed on a specific part of the guitar. \nC: The image is genuine because the guitar is electric. \nD: The image is synthetic because the wood of the guitar has a strange color. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "guitar",
+            "generator": "stable diffusion 1.4"
+        }
+    },
+    {
+        "id": "m2JiEqGpLb34WyyjgZvmbL",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/m2JiEqGpLb34WyyjgZvmbL.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the water is flowing from north to south. \nB: The image is fake because the reflection of the bridge on the water is different from the bridge itself. \nC: The image is genuine because you can see very detailed birds in the sky. \nD: The image is synthetic because the vegetation is typical of desert areas. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "bridge",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "FgvptVGPDkfcaZRqoyczkW",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/FgvptVGPDkfcaZRqoyczkW.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the paint of the car reflects the sun. \nB: The image is fake because the wheel rim of the car is deformed and the vegetation in the background is difficult to recognize. \nC: The image is genuine because you can clearly recognize a baobab in the background. \nD: The image is synthetic because the road is made out of grass, which is an unlikely terrain for sports cars. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "sports car",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "EKvGfzeztF7pUr8qNkJAaD",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/EKvGfzeztF7pUr8qNkJAaD.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the velvet under the dog is magenta. \nB: The image is fake because the eyes of the dog are too big and weirdly shaped, and also its front paws look abnormal. \nC: The image is genuine because the dog is smiling at the camera. \nD: The image is synthetic because there is no cat in the image. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "velvet",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "KrPVmPbjYePgDZMUKiens6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/KrPVmPbjYePgDZMUKiens6.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because carbonara contains egg and pancetta. \nB: The image is fake because the fork looks like it is made of two different sections. \nC: The image is genuine because all plates of pasta are black. \nD: The image is synthetic because you can't see a knife in the picture. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "carbonara",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "cMFpYpTMhSymSJwCpdopFr",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/cMFpYpTMhSymSJwCpdopFr.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because red wine pairs well with meat. \nB: The image is fake because the wine bottle has an unusual shape and the lower part of the wine glass is taller than it should be. \nC: The image is genuine because the wine is being poured from the bottle into the wine glass on the right. \nD: The image is synthetic because the glass was placed on a steel table. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "C",
+        "metadata": {
+            "object_category": "wine bottle",
+            "generator": "stable diffusion 1.5"
+        }
+    },
+    {
+        "id": "AqhPJdTnnqaqCocnznE8UN",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/AqhPJdTnnqaqCocnznE8UN.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the features of the car are well-defined. \nB: The image is fake because the features of the car are exaggerated and its shape is warped, and also the writings on the license plate cannot be read. \nC: The image is genuine because the road is lit by a light pole. \nD: The image is synthetic because you can clearly see that the driver has two left hands. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "B",
+        "metadata": {
+            "object_category": "antique car",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "CdCoEZ9cf6UzarUnVUZaZp",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/CdCoEZ9cf6UzarUnVUZaZp.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the leaves of the ananas look sharp. \nB: The image is fake because a pineapple doesn't usually have pink parts, and also the shape of the fruit is generally wrong. \nC: The image is genuine because the background is consistent. \nD: The image is synthetic because there is a red apple. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "pineapple",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "k7sC2MEz26sNKURNWBwZp6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/k7sC2MEz26sNKURNWBwZp6.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because strawberries are red, regardless of their shape. \nB: The image is fake because there is a fly with three wings on the fruit. \nC: The image is genuine because the strawberries have been placed on a cake with whipped cream. \nD: The image is synthetic because straberries are usually not shaped this way, and you can't see their leaves. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "A",
+        "metadata": {
+            "object_category": "strawberry",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "mb2sQSRexoWA8QNPahCLY2",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/mb2sQSRexoWA8QNPahCLY2.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because clay is being formed into a vase by masterful hands. \nB: The image is fake because the hands working on the clay are suspiciously clean. \nC: The image is genuine because the potter's wheel is spinning at 90 rpm. \nD: The image is synthetic because the hands that are working the clay seems too unnatural, with no clear distinction between the fingers of each hand. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "A",
+        "metadata": {
+            "object_category": "potter's wheel",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "khKbFLPouTpLuZBnNYfHLv",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/khKbFLPouTpLuZBnNYfHLv.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the people in it are wearing nice laboratory coats. \nB: The image is fake because the lamp on the ceiling is blue. \nC: The image is genuine because the people are holding each other's hands. \nD: The image is synthetic because the features of the people do not look human, and the items on the wall behind them are not clearly defined. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "lab coat",
+            "generator": "vqdm"
+        }
+    },
+    {
+        "id": "YAGeaPaJ3wMBekdBmC3Sz7",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/YAGeaPaJ3wMBekdBmC3Sz7.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the dog is holding a ball. \nB: The image is fake because the dog's teeth are unnaturally exposed from its mouth. \nC: The image is genuine because the dog is black. \nD: The image is synthetic because there is a strange plant in the background. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "A",
+        "metadata": {
+            "object_category": "doberman",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "eU6hSubBju4PsrYob3ssFm",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/eU6hSubBju4PsrYob3ssFm.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the sea is blue. \nB: The image is fake because the proportions of the sea lions are not correct, and the point of attachment of its fins is wrong. \nC: The image is genuine because sea lions live in the pacific ocean. \nD: The image is synthetic because there are no icebergs in the photo. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "B",
+        "answer": "C",
+        "metadata": {
+            "object_category": "sea lion",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "LPAFYRmi9eQivPHChAb3E6",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/LPAFYRmi9eQivPHChAb3E6.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because there are three chairs. \nB: The image is fake because there is no plane in the sky. \nC: The image is genuine because in the background there is a well-known skyscraper from New York. \nD: The image is synthetic because the placement of the furniture is odd, and the skyscrapers in the distance have a strange undefined appearance. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "C",
+        "metadata": {
+            "object_category": "terrace",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "a7SdQmXryqzdTscLASswGj",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/a7SdQmXryqzdTscLASswGj.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because salmon is usually served in multiple ways in the same dish. \nB: The image is fake because the plate is white. \nC: The image is genuine because you can see the soy sauce. \nD: The image is synthetic because raw salmon is served both unprepared and finely cut at the same time, and also the plate has a non-round shape, and the fish looks unnatural. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "D",
+        "metadata": {
+            "object_category": "salmon",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "73kCNoXuV3GBNP3gA5rBJP",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/73kCNoXuV3GBNP3gA5rBJP.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because european roofs look like this. \nB: The image is fake because there is a  strange looking bird on the chimney. \nC: The image is genuine because the windows are squared. \nD: The image is synthetic because the texture of the roof tiles is off, and also the roofs themselves have a strange conformation. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "D",
+        "answer": "A",
+        "metadata": {
+            "object_category": "tile roof",
+            "generator": "wukong"
+        }
+    },
+    {
+        "id": "mFdy8UyLDvij34Gm8SKs8W",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/mFdy8UyLDvij34Gm8SKs8W.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the reflection in the water of both the bird and the piece of wood is perfectly consistent with their positions. \nB: The image is fake because birds are generally afraid of their own reflections and would not stand so calmly near water. \nC: The image is genuine because the bird's beak is shown to be retractable, which is a common feature in shorebirds. \nD: The image is synthetic because wood typically does not float on water in this manner; it should either sink or stand upright. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "bird",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "bSCFApXrbpTNw3q7VqMUvR",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/bSCFApXrbpTNw3q7VqMUvR.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because you can see the little paw of the hamster in great detail, showing the natural texture and anatomy. Foregoing this little detail, the rest of the image also seems natural, with no particular imperfections or weirdnesses. \nB: The image is fake because hamsters typically do not interact with human hands, especially when food is involved. \nC: The image is genuine because the hamster's fur is blue, which is a rare but possible genetic trait. \nD: The image is synthetic because hamsters are nocturnal and would not be active in such bright lighting conditions. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "hamster",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "529tp47FpNk5Zt7hsNhK38",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/529tp47FpNk5Zt7hsNhK38.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because eagles are known for flying only in the dark, as it is depicted in this image. \nB: The image is fake because eagles typically do not fly at such high altitudes where clouds are visible at close range. \nC: The image is genuine because there are no visible artifacts or imperfections either in the eagle or in the clouds in the background. \nD: The image is synthetic because the wingspan of the eagle appears to be twice the normal size, which is biologically impossible. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "C",
+        "answer": "A",
+        "metadata": {
+            "object_category": "eagle",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "kqFNDs2ttYTS3LZBQpwzXb",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/kqFNDs2ttYTS3LZBQpwzXb.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because the round shape of the tire and the perfect alignment of the tire cover parts are consistent with a real-life tire, and the logo of a well-know car company is clearly visible. \nB: The image is fake because tires do not typically have logos imprinted on them, making this image suspicious. \nC: The image is genuine because tires are usually round-shaped in artificial renderings, but this one is perfectly squared. \nD: The image is synthetic because the tire appears to be made of stone, which would be impractical for a car wheel. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "car wheel",
+            "generator": "natural"
+        }
+    },
+    {
+        "id": "V3h844P5iK58QFftT8624R",
+        "image": "/home/scardovi/ai-generated-image-detection/llm/data/eval/custom-vqa/multiple-choice/V3h844P5iK58QFftT8624R.jpg",
+        "question": "Is this image real or artificially generated? Explain your reasoning. \nA: The image is real because there are many different remotes with varying shapes and styles, but the fact that the buttons on each one are arranged in a perfectly ordered grid is a detail that suggests this is a genuine image, as artificially generated images often fail to maintain such consistency. \nB: The image is fake because it's unlikely that so many different remotes would be placed together in the same room. \nC: The image is genuine because remote controls in digital renderings usually have holographic buttons, which these clearly do not. \nD: The image is synthetic because the tablecloth patterns appear to be glitched and overlapping with the remotes. \nAnswer the question with just the letter of the option that seems more appropriate.",
+        "ground_truth": "A",
+        "answer": "A",
+        "metadata": {
+            "object_category": "remote",
+            "generator": "natural"
+        }
+    }
+]
