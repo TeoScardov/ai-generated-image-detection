@@ -1,7 +1,7 @@
 import os
 import argparse
 import json
-from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix
+from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix, f1_score
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-r', '--results_file', default='./results.json', type=str)
@@ -41,13 +41,15 @@ class CalculateMetrics:
         conf_mat = confusion_matrix(clean_gts, clean_preds, labels=[0, 1])
         precision = precision_score(clean_gts, clean_preds, average='macro')
         recall = recall_score(clean_gts, clean_preds, average='macro')
+        f1 = f1_score(clean_gts, clean_preds, average='macro')
         
         metric_dict = {
             "acc": acc,
             "precision": precision,
             "recall": recall,
             "confusion_matrix": conf_mat,
-            "other_num": other_num
+            "other_num": other_num,
+            "f1": f1
         }
         
         return metric_dict
@@ -83,6 +85,7 @@ class CalculateMetrics:
 
         print("total score:", task_score, "\n")
         print("\t", task_name, " score:", task_score, "\n")
+        print(f"\t F1 score: {metric_dict['f1']}\n")
         print("\t invalid responses:", task_other_ans_num, "\n")
         print("\t confusion matrix:\n\t\t\t", metric_dict["confusion_matrix"][0], "\n\t\t\t", metric_dict["confusion_matrix"][1], "\n")
         print("\n")

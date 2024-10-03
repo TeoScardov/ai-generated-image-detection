@@ -270,3 +270,68 @@ def plot_training_stats_multioutput(train_errors, val_errors, train_loss):
 
     plt.tight_layout()
     plt.show()
+
+def multioutput_accuracy_map(device, model, loader, size):
+    from sklearn.metrics import average_precision_score
+    total_correct = {
+        'multiclass': 0,
+        'generator': 0,
+        'combined': 0
+    }
+    total_images = 0
+    
+    # Variables to store true labels and predicted scores for mAP calculation
+    all_labels = {
+        'multiclass': [],
+        'generator': []
+    }
+    all_outputs = {
+        'multiclass': [],
+        'generator': []
+    }
+    
+    # Set the model into evaluation mode
+    model.eval()
+    with torch.no_grad():
+        for inputs, labels in loader:
+            inputs = inputs.to(device)
+            for k in labels:
+                labels[k] = labels[k].to(device)
+                all_labels[k].append(labels[k].cpu())
+            
+            predictions = {}
+            outputs = model(inputs)
+            for k in outputs:
+                _, predictions[k] = torch.max(outputs[k], 1)
+                all_outputs[k].append(outputs[k].cpu())
+            total_images += labels[list(labels.keys())[0]].size(0)
+            combined = (predictions[list(labels.keys())[0]] == labels[list(labels.keys())[0]])
+            for k in predictions:
+                c_ = (predictions[k] == labels[k])
+                combined = combined & c_
+                total_correct[k] += (predictions[k] == labels[k]).sum().item()
+            total_correct['combined'] += combined.sum().item()
+    
+    errors = {}
+    for k in total_correct:
+        errors[k] = 1-(total_correct[k] / total_images)
+    
+    for k in all_labels:
+        all_labels[k] = torch.cat(all_labels[k])
+        all_outputs[k] = torch.cat(all_outputs[k])
+    
+    # Calculate mAP
+    mAPs = {
+        'multiclass': 0.0,
+        'generator': 0.0
+    }
+    for k in mAPs:
+        for i in range(size[k]):
+            binary_labels = (all_labels[k] == i).int()
+            binary_outputs = all_outputs[k][:, i]
+            ap = average_precision_score(binary_labels, binary_outputs)
+            mAPs[k] += ap
+            
+        mAPs[k] = mAPs[k]/size[k]  # Average over all classes
+    
+    return errors, mAPs

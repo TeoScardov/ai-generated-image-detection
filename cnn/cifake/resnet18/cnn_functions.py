@@ -3,6 +3,7 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from sklearn.metrics import precision_recall_curve, average_precision_score
 from PIL import Image
 import torch
 from torch.utils.data import Dataset
@@ -417,24 +418,53 @@ def plot_training_stats_multioutput(train_errors, val_errors, train_loss):
 def make_confusion_matrix(device, model, loader, size):
     total_correct = 0
     total_samples = 0
-    confusion_matrix = torch.zeros(size, size)  
+    confusion_matrix = torch.zeros(size, size)
+    
+    # Variables to store true labels and predicted scores for mAP calculation
+    all_labels = []
+    all_outputs = []
+    
     # Set the model into evaluation mode
     model.eval() 
     device = next(model.parameters()).device
-    with torch.no_grad():  
+    with torch.no_grad():
         for inputs, labels in loader:
             inputs = inputs.to(device)
             labels = labels.to(device)
             outputs = model(inputs)
+            
+            # Collecting data for mAP calculation
+            all_labels.append(labels.cpu())
+            all_outputs.append(outputs.cpu())
+            
             # Perform the predictions
             _, predicted = torch.max(outputs, 1)
             total_correct += (predicted == labels).sum().item()
             total_samples += labels.size(0)
+            
             # Update the confusion matrix
             for label, prediction in zip(labels.view(-1), predicted.view(-1)):
                 confusion_matrix[label.long(), prediction.long()] += 1
+    
     test_accuracy = total_correct / total_samples
-    return confusion_matrix, test_accuracy
+    
+    # Convert list of tensors to single tensors
+    all_labels = torch.cat(all_labels)
+    all_outputs = torch.cat(all_outputs)
+    
+    # Calculate mAP
+    mAP = 0.0
+    for i in range(size):
+        binary_labels = (all_labels == i).int()
+        binary_outputs = all_outputs[:, i]
+        
+        precision, recall, _ = precision_recall_curve(binary_labels, binary_outputs)
+        ap = average_precision_score(binary_labels, binary_outputs)
+        mAP += ap
+        
+    mAP /= size  # Average over all classes
+    
+    return confusion_matrix, test_accuracy, mAP
 
 
 
@@ -476,3 +506,5 @@ def visualise_samples(model, test_ds, labels_map, img_size=(224, 224)):
         img = Image.fromarray((img * 255).astype('uint8'))
         plt.imshow(img.resize(img_size, resample=Image.LANCZOS)) # The image is upsampled for better visualization
     plt.show()
+
+

@@ -224,8 +224,8 @@ def train_network_multioutput(model, device, lr, epochs, train_dl, val_dl, write
         if epoch < 5 or (epoch+1)%5 == 0:
             print(f"- Epoch {epoch+1}: current lr = {current_lr:.0e}\nTrain error: Combined={train_errors['combined'][epoch]*100:.2f}%; Multiclass={train_errors['multiclass'][epoch]*100:.2f}%; Generator={train_errors['generator'][epoch]*100:.2f}%; \nValidation error: Combined={val_errors['combined'][epoch]*100:.2f}%;  Multiclass={val_errors['multiclass'][epoch]*100:.2f}%; Generator={val_errors['generator'][epoch]*100:.2f}%; \nTrain loss: {(current_loss/len(train_dl)):.3e}; Val loss: {(val_loss):.3e}")
         
-        if (epoch+1)%10 == 0:
-            torch.save(model.state_dict(), './weights/resnet50_e' + str(epoch+1) + '.pth')
+        if (epoch+1)%20 == 0:
+            torch.save(model.state_dict(), './weights/resnet50_v3_e' + str(epoch+1) + '.pth')
         # Call scheduler
         if scheduler_patience:
             scheduler.step(val_errors['combined'][-1])
@@ -270,3 +270,153 @@ def plot_training_stats_multioutput(train_errors, val_errors, train_loss):
 
     plt.tight_layout()
     plt.show()
+
+
+def multioutput_accuracy_map(device, model, loader, size):
+    from sklearn.metrics import average_precision_score
+    total_correct = {
+        'multiclass': 0,
+        'generator': 0,
+        'combined': 0
+    }
+    total_images = 0
+    
+    # Variables to store true labels and predicted scores for mAP calculation
+    all_labels = {
+        'multiclass': [],
+        'generator': []
+    }
+    all_outputs = {
+        'multiclass': [],
+        'generator': []
+    }
+    
+    # Set the model into evaluation mode
+    model.eval()
+    with torch.no_grad():
+        for inputs, labels in loader:
+            inputs = inputs.to(device)
+            for k in labels:
+                labels[k] = labels[k].to(device)
+                all_labels[k].append(labels[k].cpu())
+            
+            predictions = {}
+            outputs = model(inputs)
+            for k in outputs:
+                _, predictions[k] = torch.max(outputs[k], 1)
+                all_outputs[k].append(outputs[k].cpu())
+            total_images += labels[list(labels.keys())[0]].size(0)
+            combined = (predictions[list(labels.keys())[0]] == labels[list(labels.keys())[0]])
+            for k in predictions:
+                c_ = (predictions[k] == labels[k])
+                combined = combined & c_
+                total_correct[k] += (predictions[k] == labels[k]).sum().item()
+            total_correct['combined'] += combined.sum().item()
+    
+    errors = {}
+    for k in total_correct:
+        errors[k] = 1-(total_correct[k] / total_images)
+    
+    for k in all_labels:
+        all_labels[k] = torch.cat(all_labels[k])
+        all_outputs[k] = torch.cat(all_outputs[k])
+    
+    # Calculate mAP
+    mAPs = {
+        'multiclass': 0.0,
+        'generator': 0.0
+    }
+    for k in mAPs:
+        for i in range(size[k]):
+            binary_labels = (all_labels[k] == i).int()
+            binary_outputs = all_outputs[k][:, i]
+            ap = average_precision_score(binary_labels, binary_outputs)
+            mAPs[k] += ap
+            
+        mAPs[k] = mAPs[k]/size[k]  # Average over all classes
+    
+    return errors, mAPs
+
+
+def multioutput_accuracy_map_modified(device, model, loader, size):
+    from sklearn.metrics import average_precision_score
+    correct = 0
+    total_images = 0
+    
+    # Variables to store true labels and predicted scores for mAP calculation
+    all_labels = {
+        'multiclass': [],
+        'generator': []
+    }
+    all_outputs = {
+        'multiclass': [],
+        'generator': []
+    }
+    
+    # Set the model into evaluation mode
+    model.eval()
+    with torch.no_grad():
+        for inputs, labels in loader:
+            inputs = inputs.to(device)
+            for k in labels:
+                labels[k] = labels[k].to(device)
+                all_labels[k].append(labels[k].cpu())
+            
+            predictions = {}
+            outputs = model(inputs)
+            for k in outputs:
+                _, predictions[k] = torch.max(outputs[k], 1)
+                all_outputs[k].append(outputs[k].cpu())
+            total_images += labels[list(labels.keys())[0]].size(0)
+            combined = (predictions[list(labels.keys())[0]] == labels[list(labels.keys())[0]])
+
+            p1 = (predictions['generator'] == 0) & (labels['generator'] == 0)
+            p2 = (predictions['generator'] > 0) & (labels['generator'] > 0)
+            correct += (p1 | p2).sum().item()
+    
+
+    error = 1-(correct / total_images)
+    
+    for k in all_labels:
+        all_labels[k] = torch.cat(all_labels[k])
+        all_outputs[k] = torch.cat(all_outputs[k])
+    
+    # Calculate mAP
+    mAP = 0.0
+    all_labels['generator'][all_labels['generator'] > 0] = 1
+    for i in range(2):
+        binary_labels = (all_labels['generator'] == i).int()
+        if i == 0:
+            binary_outputs = all_outputs['generator'][:, 0]
+        if i == 1:
+            binary_outputs = torch.sum(all_outputs['generator'][:, 1:], dim=1)
+        ap = average_precision_score(binary_labels, binary_outputs)
+        mAP += ap
+        
+    mAP = mAP/2  # Average over all classes
+    
+    return error, mAP
+
+
+def natural_accuracy(device, model, loader, size):
+    total_correct = 0
+    total_images = 0
+    with torch.no_grad():
+        for inputs, labels in loader:
+            inputs = inputs.to(device)
+            for k in labels:
+                labels[k] = labels[k].to(device)
+
+            outputs = model(inputs)
+            predictions = {}
+            for k in outputs:
+                _, predictions[k] = torch.max(outputs[k], 1)
+            
+            p1 = (labels['generator'] == 0)
+            p2 = (predictions['multiclass'] == labels['multiclass'])
+            total_images += p1.sum().item()
+            total_correct += (p1 & p2).sum().item()
+
+    error = 1-(total_correct / total_images)
+    return error
+
